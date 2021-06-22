@@ -1,0 +1,9 @@
+D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Piano\bin\Debug\Piano.exe.config
+D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Piano\bin\Debug\Piano.exe
+D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Piano\bin\Debug\Piano.pdb
+D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Piano\obj\Debug\Piano.csprojAssemblyReference.cache
+D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Piano\obj\Debug\Piano.Form1.resources
+D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Piano\obj\Debug\Piano.Properties.Resources.resources
+D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Piano\obj\Debug\Piano.csproj.GenerateResource.cache
+D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Piano\obj\Debug\Piano.exe
+D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Piano\obj\Debug\Piano.pdb

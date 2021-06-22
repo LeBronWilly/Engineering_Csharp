@@ -1,0 +1,9 @@
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\BinaryRW\bin\Debug\BinaryRW.exe.config
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\BinaryRW\bin\Debug\BinaryRW.exe
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\BinaryRW\bin\Debug\BinaryRW.pdb
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\BinaryRW\obj\Debug\BinaryRW.csprojAssemblyReference.cache
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\BinaryRW\obj\Debug\BinaryRW.Form1.resources
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\BinaryRW\obj\Debug\BinaryRW.Properties.Resources.resources
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\BinaryRW\obj\Debug\BinaryRW.csproj.GenerateResource.cache
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\BinaryRW\obj\Debug\BinaryRW.exe
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\BinaryRW\obj\Debug\BinaryRW.pdb

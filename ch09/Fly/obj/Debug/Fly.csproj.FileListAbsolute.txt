@@ -1,0 +1,9 @@
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Fly\bin\Debug\Fly.exe.config
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Fly\bin\Debug\Fly.exe
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Fly\bin\Debug\Fly.pdb
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Fly\obj\Debug\Fly.csprojAssemblyReference.cache
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Fly\obj\Debug\Fly.Form1.resources
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Fly\obj\Debug\Fly.Properties.Resources.resources
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Fly\obj\Debug\Fly.csproj.GenerateResource.cache
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Fly\obj\Debug\Fly.exe
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Fly\obj\Debug\Fly.pdb

@@ -1,0 +1,13 @@
+C:\C#2019\ch03\series\bin\Debug\series.exe.config
+C:\C#2019\ch03\series\bin\Debug\series.exe
+C:\C#2019\ch03\series\bin\Debug\series.pdb
+C:\C#2019\ch03\series\obj\Debug\series.csprojAssemblyReference.cache
+C:\C#2019\ch03\series\obj\Debug\series.exe
+C:\C#2019\ch03\series\obj\Debug\series.pdb
+D:\GitHub\Engineering_C#\ch03\series\bin\Debug\series.exe.config
+D:\GitHub\Engineering_C#\ch03\series\bin\Debug\series.exe
+D:\GitHub\Engineering_C#\ch03\series\bin\Debug\series.pdb
+D:\GitHub\Engineering_C#\ch03\series\obj\Debug\series.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_C#\ch03\series\obj\Debug\series.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_C#\ch03\series\obj\Debug\series.exe
+D:\GitHub\Engineering_C#\ch03\series\obj\Debug\series.pdb

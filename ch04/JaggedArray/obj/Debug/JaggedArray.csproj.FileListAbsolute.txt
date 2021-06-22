@@ -1,0 +1,7 @@
+C:\C#2019\ch04\JaggedArray\bin\Debug\JaggedArray.exe.config
+C:\C#2019\ch04\JaggedArray\bin\Debug\JaggedArray.exe
+C:\C#2019\ch04\JaggedArray\bin\Debug\JaggedArray.pdb
+C:\C#2019\ch04\JaggedArray\obj\Debug\JaggedArray.csprojAssemblyReference.cache
+C:\C#2019\ch04\JaggedArray\obj\Debug\JaggedArray.csproj.CoreCompileInputs.cache
+C:\C#2019\ch04\JaggedArray\obj\Debug\JaggedArray.exe
+C:\C#2019\ch04\JaggedArray\obj\Debug\JaggedArray.pdb

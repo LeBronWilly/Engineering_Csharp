@@ -1,0 +1,6 @@
+C:\cs2019\ch06\Property\bin\Debug\Property.exe.config
+C:\cs2019\ch06\Property\bin\Debug\Property.exe
+C:\cs2019\ch06\Property\bin\Debug\Property.pdb
+C:\cs2019\ch06\Property\obj\Debug\Property.exe
+C:\cs2019\ch06\Property\obj\Debug\Property.pdb
+C:\cs2019\ch06\Property\obj\Debug\Property.csprojAssemblyReference.cache

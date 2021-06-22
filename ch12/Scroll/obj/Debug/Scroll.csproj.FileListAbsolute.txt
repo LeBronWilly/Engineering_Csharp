@@ -1,0 +1,9 @@
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Scroll\bin\Debug\Scroll.exe.config
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Scroll\bin\Debug\Scroll.exe
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Scroll\bin\Debug\Scroll.pdb
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Scroll\obj\Debug\Scroll.csprojAssemblyReference.cache
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Scroll\obj\Debug\Scroll.Form1.resources
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Scroll\obj\Debug\Scroll.Properties.Resources.resources
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Scroll\obj\Debug\Scroll.csproj.GenerateResource.cache
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Scroll\obj\Debug\Scroll.exe
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Scroll\obj\Debug\Scroll.pdb

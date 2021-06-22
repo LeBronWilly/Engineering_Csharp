@@ -1,0 +1,9 @@
+C:\CS2019\ch14\Linq1\bin\Debug\Linq1.exe.config
+C:\CS2019\ch14\Linq1\bin\Debug\Linq1.exe
+C:\CS2019\ch14\Linq1\bin\Debug\Linq1.pdb
+C:\CS2019\ch14\Linq1\obj\Debug\Linq1.csprojAssemblyReference.cache
+C:\CS2019\ch14\Linq1\obj\Debug\Linq1.Form1.resources
+C:\CS2019\ch14\Linq1\obj\Debug\Linq1.Properties.Resources.resources
+C:\CS2019\ch14\Linq1\obj\Debug\Linq1.csproj.GenerateResource.cache
+C:\CS2019\ch14\Linq1\obj\Debug\Linq1.exe
+C:\CS2019\ch14\Linq1\obj\Debug\Linq1.pdb

@@ -1,0 +1,9 @@
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\ComboBoxDemo\bin\Debug\ComboBoxDemo.exe.config
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\ComboBoxDemo\bin\Debug\ComboBoxDemo.exe
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\ComboBoxDemo\bin\Debug\ComboBoxDemo.pdb
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\ComboBoxDemo\obj\Debug\ComboBoxDemo.csprojAssemblyReference.cache
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\ComboBoxDemo\obj\Debug\ComboBoxDemo.Form1.resources
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\ComboBoxDemo\obj\Debug\ComboBoxDemo.Properties.Resources.resources
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\ComboBoxDemo\obj\Debug\ComboBoxDemo.csproj.GenerateResource.cache
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\ComboBoxDemo\obj\Debug\ComboBoxDemo.exe
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\ComboBoxDemo\obj\Debug\ComboBoxDemo.pdb

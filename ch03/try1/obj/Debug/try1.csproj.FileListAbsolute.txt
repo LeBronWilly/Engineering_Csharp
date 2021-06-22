@@ -1,0 +1,13 @@
+C:\C#2019\ch03\try1\bin\Debug\try1.exe.config
+C:\C#2019\ch03\try1\bin\Debug\try1.exe
+C:\C#2019\ch03\try1\bin\Debug\try1.pdb
+C:\C#2019\ch03\try1\obj\Debug\try1.csprojAssemblyReference.cache
+C:\C#2019\ch03\try1\obj\Debug\try1.exe
+C:\C#2019\ch03\try1\obj\Debug\try1.pdb
+D:\GitHub\Engineering_C#\ch03\try1\bin\Debug\try1.exe.config
+D:\GitHub\Engineering_C#\ch03\try1\bin\Debug\try1.exe
+D:\GitHub\Engineering_C#\ch03\try1\bin\Debug\try1.pdb
+D:\GitHub\Engineering_C#\ch03\try1\obj\Debug\try1.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_C#\ch03\try1\obj\Debug\try1.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_C#\ch03\try1\obj\Debug\try1.exe
+D:\GitHub\Engineering_C#\ch03\try1\obj\Debug\try1.pdb

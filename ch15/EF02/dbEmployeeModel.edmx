@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="dbEmployeeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="員工">
+          <Key>
+            <PropertyRef Name="員工編號" />
+          </Key>
+          <Property Name="員工編號" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="姓名" Type="nvarchar" MaxLength="10" />
+          <Property Name="信箱" Type="nvarchar" MaxLength="50" />
+          <Property Name="薪資" Type="int" />
+          <Property Name="雇用日期" Type="date" />
+          <Property Name="是否已婚" Type="bit" />
+        </EntityType>
+        <EntityContainer Name="dbEmployeeModelStoreContainer">
+          <EntitySet Name="員工" EntityType="Self.員工" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="dbEmployeeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="員工">
+          <Key>
+            <PropertyRef Name="員工編號" />
+          </Key>
+          <Property Name="員工編號" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="姓名" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="信箱" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="薪資" Type="Int32" />
+          <Property Name="雇用日期" Type="DateTime" Precision="0" />
+          <Property Name="是否已婚" Type="Boolean" />
+        </EntityType>
+        <EntityContainer Name="dbEmployeeEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="員工" EntityType="Self.員工" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="dbEmployeeModelStoreContainer" CdmEntityContainer="dbEmployeeEntities">
+          <EntitySetMapping Name="員工">
+            <EntityTypeMapping TypeName="dbEmployeeModel.員工">
+              <MappingFragment StoreEntitySet="員工">
+                <ScalarProperty Name="員工編號" ColumnName="員工編號" />
+                <ScalarProperty Name="姓名" ColumnName="姓名" />
+                <ScalarProperty Name="信箱" ColumnName="信箱" />
+                <ScalarProperty Name="薪資" ColumnName="薪資" />
+                <ScalarProperty Name="雇用日期" ColumnName="雇用日期" />
+                <ScalarProperty Name="是否已婚" ColumnName="是否已婚" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="無" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

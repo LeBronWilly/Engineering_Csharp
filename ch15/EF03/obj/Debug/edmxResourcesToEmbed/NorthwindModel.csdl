@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NorthwindModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="訂貨主檔">
+    <Key>
+      <PropertyRef Name="訂單號碼" />
+    </Key>
+    <Property Name="訂單號碼" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="客戶編號" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+    <Property Name="員工編號" Type="Int32" />
+    <Property Name="訂單日期" Type="DateTime" Precision="3" />
+    <Property Name="要貨日期" Type="DateTime" Precision="3" />
+    <Property Name="送貨日期" Type="DateTime" Precision="3" />
+    <Property Name="送貨方式" Type="Int32" />
+    <Property Name="運費" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="收貨人" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="送貨地址" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+    <Property Name="送貨城市" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="送貨行政區" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="送貨郵遞區號" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="送貨國家地區" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="訂貨明細" Relationship="Self.FK_訂貨明細_訂貨主檔" FromRole="訂貨主檔" ToRole="訂貨明細" />
+  </EntityType>
+  <EntityType Name="訂貨明細">
+    <Key>
+      <PropertyRef Name="訂單號碼" />
+      <PropertyRef Name="產品編號" />
+    </Key>
+    <Property Name="訂單號碼" Type="Int32" Nullable="false" />
+    <Property Name="產品編號" Type="Int32" Nullable="false" />
+    <Property Name="單價" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="數量" Type="Int16" Nullable="false" />
+    <Property Name="折扣" Type="Single" Nullable="false" />
+    <NavigationProperty Name="訂貨主檔" Relationship="Self.FK_訂貨明細_訂貨主檔" FromRole="訂貨明細" ToRole="訂貨主檔" />
+  </EntityType>
+  <Association Name="FK_訂貨明細_訂貨主檔">
+    <End Role="訂貨主檔" Type="Self.訂貨主檔" Multiplicity="1" />
+    <End Role="訂貨明細" Type="Self.訂貨明細" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="訂貨主檔">
+        <PropertyRef Name="訂單號碼" />
+      </Principal>
+      <Dependent Role="訂貨明細">
+        <PropertyRef Name="訂單號碼" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NorthwindEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="訂貨主檔" EntityType="Self.訂貨主檔" />
+    <EntitySet Name="訂貨明細" EntityType="Self.訂貨明細" />
+    <AssociationSet Name="FK_訂貨明細_訂貨主檔" Association="Self.FK_訂貨明細_訂貨主檔">
+      <End Role="訂貨主檔" EntitySet="訂貨主檔" />
+      <End Role="訂貨明細" EntitySet="訂貨明細" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

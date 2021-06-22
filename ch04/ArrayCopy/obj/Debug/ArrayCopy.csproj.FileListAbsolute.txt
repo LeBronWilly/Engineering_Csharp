@@ -1,0 +1,7 @@
+C:\C#2019\ch04\ArrayCopy\bin\Debug\ArrayCopy.exe.config
+C:\C#2019\ch04\ArrayCopy\bin\Debug\ArrayCopy.exe
+C:\C#2019\ch04\ArrayCopy\bin\Debug\ArrayCopy.pdb
+C:\C#2019\ch04\ArrayCopy\obj\Debug\ArrayCopy.csproj.CoreCompileInputs.cache
+C:\C#2019\ch04\ArrayCopy\obj\Debug\ArrayCopy.exe
+C:\C#2019\ch04\ArrayCopy\obj\Debug\ArrayCopy.pdb
+C:\C#2019\ch04\ArrayCopy\obj\Debug\ArrayCopy.csprojAssemblyReference.cache

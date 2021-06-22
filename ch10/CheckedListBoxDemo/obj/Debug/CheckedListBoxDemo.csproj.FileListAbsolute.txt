@@ -1,0 +1,8 @@
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\CheckedListBoxDemo\bin\Debug\CheckedListBoxDemo.exe.config
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\CheckedListBoxDemo\bin\Debug\CheckedListBoxDemo.exe
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\CheckedListBoxDemo\bin\Debug\CheckedListBoxDemo.pdb
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\CheckedListBoxDemo\obj\Debug\CheckedListBoxDemo.Form1.resources
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\CheckedListBoxDemo\obj\Debug\CheckedListBoxDemo.Properties.Resources.resources
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\CheckedListBoxDemo\obj\Debug\CheckedListBoxDemo.csproj.GenerateResource.cache
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\CheckedListBoxDemo\obj\Debug\CheckedListBoxDemo.exe
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\CheckedListBoxDemo\obj\Debug\CheckedListBoxDemo.pdb

@@ -1,0 +1,6 @@
+C:\cs2019\ch06\ClassInherits\obj\Debug\ClassInherits.csprojAssemblyReference.cache
+C:\cs2019\ch06\ClassInherits\bin\Debug\ClassInherits.exe.config
+C:\cs2019\ch06\ClassInherits\bin\Debug\ClassInherits.exe
+C:\cs2019\ch06\ClassInherits\bin\Debug\ClassInherits.pdb
+C:\cs2019\ch06\ClassInherits\obj\Debug\ClassInherits.exe
+C:\cs2019\ch06\ClassInherits\obj\Debug\ClassInherits.pdb

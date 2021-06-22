@@ -1,0 +1,11 @@
+C:\C#2019\ch03\tryparse\bin\Debug\tryparse.exe.config
+C:\C#2019\ch03\tryparse\bin\Debug\tryparse.exe
+C:\C#2019\ch03\tryparse\bin\Debug\tryparse.pdb
+C:\C#2019\ch03\tryparse\obj\Debug\tryparse.exe
+C:\C#2019\ch03\tryparse\obj\Debug\tryparse.pdb
+D:\GitHub\Engineering_C#\ch03\tryparse\bin\Debug\tryparse.exe.config
+D:\GitHub\Engineering_C#\ch03\tryparse\bin\Debug\tryparse.exe
+D:\GitHub\Engineering_C#\ch03\tryparse\bin\Debug\tryparse.pdb
+D:\GitHub\Engineering_C#\ch03\tryparse\obj\Debug\tryparse.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_C#\ch03\tryparse\obj\Debug\tryparse.exe
+D:\GitHub\Engineering_C#\ch03\tryparse\obj\Debug\tryparse.pdb

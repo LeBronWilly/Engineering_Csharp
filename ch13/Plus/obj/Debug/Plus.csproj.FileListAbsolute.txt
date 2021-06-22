@@ -1,0 +1,9 @@
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\Plus\bin\Debug\Plus.exe.config
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\Plus\bin\Debug\Plus.exe
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\Plus\bin\Debug\Plus.pdb
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\Plus\obj\Debug\Plus.Form1.resources
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\Plus\obj\Debug\Plus.Properties.Resources.resources
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\Plus\obj\Debug\Plus.csproj.GenerateResource.cache
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\Plus\obj\Debug\Plus.exe
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\Plus\obj\Debug\Plus.pdb
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\Plus\obj\Debug\Plus.csprojAssemblyReference.cache

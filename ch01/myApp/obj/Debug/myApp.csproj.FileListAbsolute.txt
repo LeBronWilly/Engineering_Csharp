@@ -1,0 +1,7 @@
+D:\GitHub\Engineering_C#\ch01\myApp\bin\Debug\myApp.exe.config
+D:\GitHub\Engineering_C#\ch01\myApp\bin\Debug\myApp.exe
+D:\GitHub\Engineering_C#\ch01\myApp\bin\Debug\myApp.pdb
+D:\GitHub\Engineering_C#\ch01\myApp\obj\Debug\myApp.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_C#\ch01\myApp\obj\Debug\myApp.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_C#\ch01\myApp\obj\Debug\myApp.exe
+D:\GitHub\Engineering_C#\ch01\myApp\obj\Debug\myApp.pdb

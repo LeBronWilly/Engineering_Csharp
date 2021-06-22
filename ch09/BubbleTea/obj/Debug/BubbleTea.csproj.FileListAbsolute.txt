@@ -1,0 +1,9 @@
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\BubbleTea\bin\Debug\BubbleTea.exe.config
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\BubbleTea\bin\Debug\BubbleTea.exe
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\BubbleTea\bin\Debug\BubbleTea.pdb
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\BubbleTea\obj\Debug\BubbleTea.csprojAssemblyReference.cache
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\BubbleTea\obj\Debug\BubbleTea.Form1.resources
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\BubbleTea\obj\Debug\BubbleTea.Properties.Resources.resources
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\BubbleTea\obj\Debug\BubbleTea.csproj.GenerateResource.cache
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\BubbleTea\obj\Debug\BubbleTea.exe
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\BubbleTea\obj\Debug\BubbleTea.pdb

@@ -1,0 +1,12 @@
+C:\C#2019\ch03\debug\bin\Debug\debug.exe.config
+C:\C#2019\ch03\debug\bin\Debug\debug.exe
+C:\C#2019\ch03\debug\bin\Debug\debug.pdb
+C:\C#2019\ch03\debug\obj\Debug\debug.csprojAssemblyReference.cache
+C:\C#2019\ch03\debug\obj\Debug\debug.exe
+C:\C#2019\ch03\debug\obj\Debug\debug.pdb
+D:\GitHub\Engineering_C#\ch03\debug\bin\Debug\debug.exe.config
+D:\GitHub\Engineering_C#\ch03\debug\bin\Debug\debug.exe
+D:\GitHub\Engineering_C#\ch03\debug\bin\Debug\debug.pdb
+D:\GitHub\Engineering_C#\ch03\debug\obj\Debug\debug.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_C#\ch03\debug\obj\Debug\debug.exe
+D:\GitHub\Engineering_C#\ch03\debug\obj\Debug\debug.pdb

@@ -1,0 +1,10 @@
+C:\C#2019\ch07\hello\bin\Debug\hello.exe.config
+C:\C#2019\ch07\hello\bin\Debug\hello.exe
+C:\C#2019\ch07\hello\bin\Debug\hello.pdb
+C:\C#2019\ch07\hello\obj\Debug\hello.csprojAssemblyReference.cache
+C:\C#2019\ch07\hello\obj\Debug\hello.Form1.resources
+C:\C#2019\ch07\hello\obj\Debug\hello.Properties.Resources.resources
+C:\C#2019\ch07\hello\obj\Debug\hello.csproj.GenerateResource.cache
+C:\C#2019\ch07\hello\obj\Debug\hello.csproj.CoreCompileInputs.cache
+C:\C#2019\ch07\hello\obj\Debug\hello.exe
+C:\C#2019\ch07\hello\obj\Debug\hello.pdb

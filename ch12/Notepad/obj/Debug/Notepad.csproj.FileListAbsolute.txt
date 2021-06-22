@@ -1,0 +1,9 @@
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Notepad\bin\Debug\Notepad.exe.config
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Notepad\bin\Debug\Notepad.exe
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Notepad\bin\Debug\Notepad.pdb
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Notepad\obj\Debug\Notepad.csprojAssemblyReference.cache
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Notepad\obj\Debug\Notepad.Form1.resources
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Notepad\obj\Debug\Notepad.Properties.Resources.resources
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Notepad\obj\Debug\Notepad.csproj.GenerateResource.cache
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Notepad\obj\Debug\Notepad.exe
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Notepad\obj\Debug\Notepad.pdb

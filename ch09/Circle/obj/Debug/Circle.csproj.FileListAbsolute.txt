@@ -1,0 +1,9 @@
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Circle\bin\Debug\Circle.exe.config
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Circle\bin\Debug\Circle.exe
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Circle\bin\Debug\Circle.pdb
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Circle\obj\Debug\Circle.csprojAssemblyReference.cache
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Circle\obj\Debug\Circle.Form1.resources
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Circle\obj\Debug\Circle.Properties.Resources.resources
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Circle\obj\Debug\Circle.csproj.GenerateResource.cache
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Circle\obj\Debug\Circle.exe
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Circle\obj\Debug\Circle.pdb

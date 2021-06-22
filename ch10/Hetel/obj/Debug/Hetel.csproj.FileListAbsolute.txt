@@ -1,0 +1,9 @@
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Hetel\bin\Debug\Hetel.exe.config
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Hetel\bin\Debug\Hetel.exe
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Hetel\bin\Debug\Hetel.pdb
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Hetel\obj\Debug\Hetel.csprojAssemblyReference.cache
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Hetel\obj\Debug\Hetel.Form1.resources
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Hetel\obj\Debug\Hetel.Properties.Resources.resources
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Hetel\obj\Debug\Hetel.csproj.GenerateResource.cache
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Hetel\obj\Debug\Hetel.exe
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Hetel\obj\Debug\Hetel.pdb

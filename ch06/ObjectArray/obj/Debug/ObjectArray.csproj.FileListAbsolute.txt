@@ -1,0 +1,6 @@
+C:\cs2019\ch06\ObjectArray\bin\Debug\ObjectArray.exe.config
+C:\cs2019\ch06\ObjectArray\bin\Debug\ObjectArray.exe
+C:\cs2019\ch06\ObjectArray\bin\Debug\ObjectArray.pdb
+C:\cs2019\ch06\ObjectArray\obj\Debug\ObjectArray.csprojAssemblyReference.cache
+C:\cs2019\ch06\ObjectArray\obj\Debug\ObjectArray.exe
+C:\cs2019\ch06\ObjectArray\obj\Debug\ObjectArray.pdb

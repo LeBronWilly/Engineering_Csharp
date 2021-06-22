@@ -1,0 +1,9 @@
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Alarm\bin\Debug\Alarm.exe.config
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Alarm\bin\Debug\Alarm.exe
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Alarm\bin\Debug\Alarm.pdb
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Alarm\obj\Debug\Alarm.csprojAssemblyReference.cache
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Alarm\obj\Debug\Alarm.Form1.resources
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Alarm\obj\Debug\Alarm.Properties.Resources.resources
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Alarm\obj\Debug\Alarm.csproj.GenerateResource.cache
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Alarm\obj\Debug\Alarm.exe
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Alarm\obj\Debug\Alarm.pdb

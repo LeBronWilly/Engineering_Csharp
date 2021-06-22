@@ -1,0 +1,10 @@
+C:\C#2019\ch08\link1\bin\Debug\link1.exe.config
+C:\C#2019\ch08\link1\bin\Debug\link1.exe
+C:\C#2019\ch08\link1\bin\Debug\link1.pdb
+C:\C#2019\ch08\link1\obj\Debug\link1.csprojAssemblyReference.cache
+C:\C#2019\ch08\link1\obj\Debug\link1.Form1.resources
+C:\C#2019\ch08\link1\obj\Debug\link1.Properties.Resources.resources
+C:\C#2019\ch08\link1\obj\Debug\link1.csproj.GenerateResource.cache
+C:\C#2019\ch08\link1\obj\Debug\link1.csproj.CoreCompileInputs.cache
+C:\C#2019\ch08\link1\obj\Debug\link1.exe
+C:\C#2019\ch08\link1\obj\Debug\link1.pdb

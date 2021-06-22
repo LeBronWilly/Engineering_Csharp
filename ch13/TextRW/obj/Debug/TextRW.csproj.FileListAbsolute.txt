@@ -1,0 +1,9 @@
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\TextRW\bin\Debug\TextRW.exe.config
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\TextRW\bin\Debug\TextRW.exe
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\TextRW\bin\Debug\TextRW.pdb
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\TextRW\obj\Debug\TextRW.csprojAssemblyReference.cache
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\TextRW\obj\Debug\TextRW.Form1.resources
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\TextRW\obj\Debug\TextRW.Properties.Resources.resources
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\TextRW\obj\Debug\TextRW.csproj.GenerateResource.cache
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\TextRW\obj\Debug\TextRW.exe
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\TextRW\obj\Debug\TextRW.pdb

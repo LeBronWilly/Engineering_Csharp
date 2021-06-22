@@ -1,0 +1,9 @@
+D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Drag\bin\Debug\Drag.exe.config
+D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Drag\bin\Debug\Drag.exe
+D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Drag\bin\Debug\Drag.pdb
+D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Drag\obj\Debug\Drag.csprojAssemblyReference.cache
+D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Drag\obj\Debug\Drag.Form1.resources
+D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Drag\obj\Debug\Drag.Properties.Resources.resources
+D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Drag\obj\Debug\Drag.csproj.GenerateResource.cache
+D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Drag\obj\Debug\Drag.exe
+D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Drag\obj\Debug\Drag.pdb

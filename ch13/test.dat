@@ -1,0 +1,5 @@
+﻿撰寫關於資料流、檔案和目錄的程式時，要引用下列哪個命名空間？,System.Data,System.IO,System.Medio,System.Text,2
+下列哪個類別可以不用建立物件就能複製檔案？,DirectoryInfo,File,FileInfo,FileStream,2
+使用DirectoryInfo類別的哪個方法，可以搬移指定？,Create,Delete,Move,MoveTo,4
+使用File類別的哪個方法，可以得知指定檔案是否存在？,Copy,Delete,Exists,Move,3
+使用FileInfo類別物件的哪個屬性，可以得知檔案的大小？,Exists,Extension,FullName,Length,4

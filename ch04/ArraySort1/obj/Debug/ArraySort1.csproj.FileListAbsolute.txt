@@ -1,0 +1,7 @@
+C:\C#2019\ch04\ArraySort1\bin\Debug\ArraySort1.exe.config
+C:\C#2019\ch04\ArraySort1\bin\Debug\ArraySort1.exe
+C:\C#2019\ch04\ArraySort1\bin\Debug\ArraySort1.pdb
+C:\C#2019\ch04\ArraySort1\obj\Debug\ArraySort1.csprojAssemblyReference.cache
+C:\C#2019\ch04\ArraySort1\obj\Debug\ArraySort1.csproj.CoreCompileInputs.cache
+C:\C#2019\ch04\ArraySort1\obj\Debug\ArraySort1.exe
+C:\C#2019\ch04\ArraySort1\obj\Debug\ArraySort1.pdb

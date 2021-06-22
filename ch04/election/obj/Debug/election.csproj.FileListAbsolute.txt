@@ -1,0 +1,7 @@
+C:\C#2019\ch04\election\bin\Debug\election.exe.config
+C:\C#2019\ch04\election\bin\Debug\election.exe
+C:\C#2019\ch04\election\bin\Debug\election.pdb
+C:\C#2019\ch04\election\obj\Debug\election.csprojAssemblyReference.cache
+C:\C#2019\ch04\election\obj\Debug\election.csproj.CoreCompileInputs.cache
+C:\C#2019\ch04\election\obj\Debug\election.exe
+C:\C#2019\ch04\election\obj\Debug\election.pdb

@@ -1,0 +1,9 @@
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\ListBoxDemo\bin\Debug\ListBoxDemo.exe.config
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\ListBoxDemo\bin\Debug\ListBoxDemo.exe
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\ListBoxDemo\bin\Debug\ListBoxDemo.pdb
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\ListBoxDemo\obj\Debug\ListBoxDemo.csprojAssemblyReference.cache
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\ListBoxDemo\obj\Debug\ListBoxDemo.Form1.resources
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\ListBoxDemo\obj\Debug\ListBoxDemo.Properties.Resources.resources
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\ListBoxDemo\obj\Debug\ListBoxDemo.csproj.GenerateResource.cache
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\ListBoxDemo\obj\Debug\ListBoxDemo.exe
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\ListBoxDemo\obj\Debug\ListBoxDemo.pdb

@@ -1,0 +1,11 @@
+C:\C#2019\ch03\try5\bin\Debug\try5.exe.config
+C:\C#2019\ch03\try5\bin\Debug\try5.exe
+C:\C#2019\ch03\try5\bin\Debug\try5.pdb
+C:\C#2019\ch03\try5\obj\Debug\try5.exe
+C:\C#2019\ch03\try5\obj\Debug\try5.pdb
+D:\GitHub\Engineering_C#\ch03\try5\bin\Debug\try5.exe.config
+D:\GitHub\Engineering_C#\ch03\try5\bin\Debug\try5.exe
+D:\GitHub\Engineering_C#\ch03\try5\bin\Debug\try5.pdb
+D:\GitHub\Engineering_C#\ch03\try5\obj\Debug\try5.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_C#\ch03\try5\obj\Debug\try5.exe
+D:\GitHub\Engineering_C#\ch03\try5\obj\Debug\try5.pdb

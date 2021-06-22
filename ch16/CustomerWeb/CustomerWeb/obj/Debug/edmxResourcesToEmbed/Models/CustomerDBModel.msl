@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CustomerDBModelStoreContainer" CdmEntityContainer="CustomerDBEntities">
+    <EntitySetMapping Name="客戶">
+      <EntityTypeMapping TypeName="CustomerDBModel.客戶">
+        <MappingFragment StoreEntitySet="客戶">
+          <ScalarProperty Name="編號" ColumnName="編號" />
+          <ScalarProperty Name="姓名" ColumnName="姓名" />
+          <ScalarProperty Name="電話" ColumnName="電話" />
+          <ScalarProperty Name="地址" ColumnName="地址" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

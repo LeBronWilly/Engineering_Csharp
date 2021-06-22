@@ -1,0 +1,7 @@
+C:\C#2019\ch05\RndObj\bin\Debug\RndObj.exe.config
+C:\C#2019\ch05\RndObj\bin\Debug\RndObj.exe
+C:\C#2019\ch05\RndObj\bin\Debug\RndObj.pdb
+C:\C#2019\ch05\RndObj\obj\Debug\RndObj.csprojAssemblyReference.cache
+C:\C#2019\ch05\RndObj\obj\Debug\RndObj.csproj.CoreCompileInputs.cache
+C:\C#2019\ch05\RndObj\obj\Debug\RndObj.exe
+C:\C#2019\ch05\RndObj\obj\Debug\RndObj.pdb

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NorthwindModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="訂貨主檔">
+    <Key>
+      <PropertyRef Name="訂單號碼" />
+    </Key>
+    <Property Name="訂單號碼" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="客戶編號" Type="nvarchar" MaxLength="5" />
+    <Property Name="員工編號" Type="int" />
+    <Property Name="訂單日期" Type="datetime" />
+    <Property Name="要貨日期" Type="datetime" />
+    <Property Name="送貨日期" Type="datetime" />
+    <Property Name="送貨方式" Type="int" />
+    <Property Name="運費" Type="money" />
+    <Property Name="收貨人" Type="nvarchar" MaxLength="40" />
+    <Property Name="送貨地址" Type="nvarchar" MaxLength="60" />
+    <Property Name="送貨城市" Type="nvarchar" MaxLength="15" />
+    <Property Name="送貨行政區" Type="nvarchar" MaxLength="15" />
+    <Property Name="送貨郵遞區號" Type="nvarchar" MaxLength="10" />
+    <Property Name="送貨國家地區" Type="nvarchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="訂貨明細">
+    <Key>
+      <PropertyRef Name="訂單號碼" />
+      <PropertyRef Name="產品編號" />
+    </Key>
+    <Property Name="訂單號碼" Type="int" Nullable="false" />
+    <Property Name="產品編號" Type="int" Nullable="false" />
+    <Property Name="單價" Type="money" Nullable="false" />
+    <Property Name="數量" Type="smallint" Nullable="false" />
+    <Property Name="折扣" Type="real" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_訂貨明細_訂貨主檔">
+    <End Role="訂貨主檔" Type="Self.訂貨主檔" Multiplicity="1" />
+    <End Role="訂貨明細" Type="Self.訂貨明細" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="訂貨主檔">
+        <PropertyRef Name="訂單號碼" />
+      </Principal>
+      <Dependent Role="訂貨明細">
+        <PropertyRef Name="訂單號碼" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NorthwindModelStoreContainer">
+    <EntitySet Name="訂貨主檔" EntityType="Self.訂貨主檔" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="訂貨明細" EntityType="Self.訂貨明細" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_訂貨明細_訂貨主檔" Association="Self.FK_訂貨明細_訂貨主檔">
+      <End Role="訂貨主檔" EntitySet="訂貨主檔" />
+      <End Role="訂貨明細" EntitySet="訂貨明細" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

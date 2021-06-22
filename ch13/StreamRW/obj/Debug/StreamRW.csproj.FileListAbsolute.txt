@@ -1,0 +1,9 @@
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\StreamRW\bin\Debug\StreamRW.exe.config
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\StreamRW\bin\Debug\StreamRW.exe
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\StreamRW\bin\Debug\StreamRW.pdb
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\StreamRW\obj\Debug\StreamRW.csprojAssemblyReference.cache
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\StreamRW\obj\Debug\StreamRW.Form1.resources
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\StreamRW\obj\Debug\StreamRW.Properties.Resources.resources
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\StreamRW\obj\Debug\StreamRW.csproj.GenerateResource.cache
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\StreamRW\obj\Debug\StreamRW.exe
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\StreamRW\obj\Debug\StreamRW.pdb

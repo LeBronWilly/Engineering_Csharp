@@ -1,0 +1,9 @@
+C:\CS2019\ch14\Linq3\bin\Debug\Linq3.exe.config
+C:\CS2019\ch14\Linq3\bin\Debug\Linq3.exe
+C:\CS2019\ch14\Linq3\bin\Debug\Linq3.pdb
+C:\CS2019\ch14\Linq3\obj\Debug\Linq3.csprojAssemblyReference.cache
+C:\CS2019\ch14\Linq3\obj\Debug\Linq3.Form1.resources
+C:\CS2019\ch14\Linq3\obj\Debug\Linq3.Properties.Resources.resources
+C:\CS2019\ch14\Linq3\obj\Debug\Linq3.csproj.GenerateResource.cache
+C:\CS2019\ch14\Linq3\obj\Debug\Linq3.exe
+C:\CS2019\ch14\Linq3\obj\Debug\Linq3.pdb

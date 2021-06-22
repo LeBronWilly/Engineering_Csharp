@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="dbEmployeeModelStoreContainer" CdmEntityContainer="dbEmployeeEntities">
+    <EntitySetMapping Name="員工">
+      <EntityTypeMapping TypeName="dbEmployeeModel.員工">
+        <MappingFragment StoreEntitySet="員工">
+          <ScalarProperty Name="員工編號" ColumnName="員工編號" />
+          <ScalarProperty Name="姓名" ColumnName="姓名" />
+          <ScalarProperty Name="信箱" ColumnName="信箱" />
+          <ScalarProperty Name="薪資" ColumnName="薪資" />
+          <ScalarProperty Name="雇用日期" ColumnName="雇用日期" />
+          <ScalarProperty Name="是否已婚" ColumnName="是否已婚" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

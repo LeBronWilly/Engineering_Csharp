@@ -1,0 +1,6 @@
+C:\cs2019\ch02\write1\bin\Debug\write1.exe.config
+C:\cs2019\ch02\write1\bin\Debug\write1.exe
+C:\cs2019\ch02\write1\bin\Debug\write1.pdb
+C:\cs2019\ch02\write1\obj\Debug\write1.csprojAssemblyReference.cache
+C:\cs2019\ch02\write1\obj\Debug\write1.exe
+C:\cs2019\ch02\write1\obj\Debug\write1.pdb

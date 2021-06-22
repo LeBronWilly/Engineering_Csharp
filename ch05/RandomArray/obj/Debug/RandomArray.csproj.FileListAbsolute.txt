@@ -1,0 +1,7 @@
+C:\C#2019\ch05\RandomArray\bin\Debug\RandomArray.exe.config
+C:\C#2019\ch05\RandomArray\bin\Debug\RandomArray.exe
+C:\C#2019\ch05\RandomArray\bin\Debug\RandomArray.pdb
+C:\C#2019\ch05\RandomArray\obj\Debug\RandomArray.csprojAssemblyReference.cache
+C:\C#2019\ch05\RandomArray\obj\Debug\RandomArray.csproj.CoreCompileInputs.cache
+C:\C#2019\ch05\RandomArray\obj\Debug\RandomArray.exe
+C:\C#2019\ch05\RandomArray\obj\Debug\RandomArray.pdb

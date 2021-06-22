@@ -1,0 +1,6 @@
+C:\cs2019\ch06\Constructor\bin\Debug\Constructor.exe.config
+C:\cs2019\ch06\Constructor\bin\Debug\Constructor.exe
+C:\cs2019\ch06\Constructor\bin\Debug\Constructor.pdb
+C:\cs2019\ch06\Constructor\obj\Debug\Constructor.csprojAssemblyReference.cache
+C:\cs2019\ch06\Constructor\obj\Debug\Constructor.exe
+C:\cs2019\ch06\Constructor\obj\Debug\Constructor.pdb

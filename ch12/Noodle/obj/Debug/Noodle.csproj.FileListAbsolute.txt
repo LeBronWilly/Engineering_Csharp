@@ -1,0 +1,9 @@
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Noodle\bin\Debug\Noodle.exe.config
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Noodle\bin\Debug\Noodle.exe
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Noodle\bin\Debug\Noodle.pdb
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Noodle\obj\Debug\Noodle.csprojAssemblyReference.cache
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Noodle\obj\Debug\Noodle.Form1.resources
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Noodle\obj\Debug\Noodle.Properties.Resources.resources
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Noodle\obj\Debug\Noodle.csproj.GenerateResource.cache
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Noodle\obj\Debug\Noodle.exe
+D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Noodle\obj\Debug\Noodle.pdb

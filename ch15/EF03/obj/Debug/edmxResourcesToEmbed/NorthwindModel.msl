@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NorthwindModelStoreContainer" CdmEntityContainer="NorthwindEntities">
+    <EntitySetMapping Name="訂貨主檔">
+      <EntityTypeMapping TypeName="NorthwindModel.訂貨主檔">
+        <MappingFragment StoreEntitySet="訂貨主檔">
+          <ScalarProperty Name="訂單號碼" ColumnName="訂單號碼" />
+          <ScalarProperty Name="客戶編號" ColumnName="客戶編號" />
+          <ScalarProperty Name="員工編號" ColumnName="員工編號" />
+          <ScalarProperty Name="訂單日期" ColumnName="訂單日期" />
+          <ScalarProperty Name="要貨日期" ColumnName="要貨日期" />
+          <ScalarProperty Name="送貨日期" ColumnName="送貨日期" />
+          <ScalarProperty Name="送貨方式" ColumnName="送貨方式" />
+          <ScalarProperty Name="運費" ColumnName="運費" />
+          <ScalarProperty Name="收貨人" ColumnName="收貨人" />
+          <ScalarProperty Name="送貨地址" ColumnName="送貨地址" />
+          <ScalarProperty Name="送貨城市" ColumnName="送貨城市" />
+          <ScalarProperty Name="送貨行政區" ColumnName="送貨行政區" />
+          <ScalarProperty Name="送貨郵遞區號" ColumnName="送貨郵遞區號" />
+          <ScalarProperty Name="送貨國家地區" ColumnName="送貨國家地區" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="訂貨明細">
+      <EntityTypeMapping TypeName="NorthwindModel.訂貨明細">
+        <MappingFragment StoreEntitySet="訂貨明細">
+          <ScalarProperty Name="訂單號碼" ColumnName="訂單號碼" />
+          <ScalarProperty Name="產品編號" ColumnName="產品編號" />
+          <ScalarProperty Name="單價" ColumnName="單價" />
+          <ScalarProperty Name="數量" ColumnName="數量" />
+          <ScalarProperty Name="折扣" ColumnName="折扣" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

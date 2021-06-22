@@ -1,0 +1,9 @@
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\CreateDir2\bin\Debug\CreateDir2.exe.config
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\CreateDir2\bin\Debug\CreateDir2.exe
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\CreateDir2\bin\Debug\CreateDir2.pdb
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\CreateDir2\obj\Debug\CreateDir2.csprojAssemblyReference.cache
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\CreateDir2\obj\Debug\CreateDir2.Form1.resources
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\CreateDir2\obj\Debug\CreateDir2.Properties.Resources.resources
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\CreateDir2\obj\Debug\CreateDir2.csproj.GenerateResource.cache
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\CreateDir2\obj\Debug\CreateDir2.exe
+D:\08從零開始\VisualC#2019從零開始\ch13\ch13範例\CreateDir2\obj\Debug\CreateDir2.pdb

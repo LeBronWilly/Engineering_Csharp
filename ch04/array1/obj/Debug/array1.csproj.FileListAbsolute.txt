@@ -1,0 +1,7 @@
+C:\C#2019\ch04\array1\bin\Debug\array1.exe.config
+C:\C#2019\ch04\array1\bin\Debug\array1.exe
+C:\C#2019\ch04\array1\bin\Debug\array1.pdb
+C:\C#2019\ch04\array1\obj\Debug\array1.csprojAssemblyReference.cache
+C:\C#2019\ch04\array1\obj\Debug\array1.exe
+C:\C#2019\ch04\array1\obj\Debug\array1.pdb
+C:\C#2019\ch04\array1\obj\Debug\array1.csproj.CoreCompileInputs.cache

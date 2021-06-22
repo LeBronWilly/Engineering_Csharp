@@ -1,0 +1,7 @@
+C:\C#2019\ch03\forsample\bin\Debug\forsample.exe.config
+C:\C#2019\ch03\forsample\bin\Debug\forsample.exe
+C:\C#2019\ch03\forsample\bin\Debug\forsample.pdb
+C:\C#2019\ch03\forsample\obj\Debug\forsample.csprojAssemblyReference.cache
+C:\C#2019\ch03\forsample\obj\Debug\forsample.csproj.CoreCompileInputs.cache
+C:\C#2019\ch03\forsample\obj\Debug\forsample.exe
+C:\C#2019\ch03\forsample\obj\Debug\forsample.pdb

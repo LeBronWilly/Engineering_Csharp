@@ -1,0 +1,9 @@
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\NoteBook\obj\Debug\NoteBook.csprojAssemblyReference.cache
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\NoteBook\obj\Debug\NoteBook.Form1.resources
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\NoteBook\obj\Debug\NoteBook.Properties.Resources.resources
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\NoteBook\obj\Debug\NoteBook.csproj.GenerateResource.cache
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\NoteBook\bin\Debug\NoteBook.exe.config
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\NoteBook\bin\Debug\NoteBook.exe
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\NoteBook\bin\Debug\NoteBook.pdb
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\NoteBook\obj\Debug\NoteBook.exe
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\NoteBook\obj\Debug\NoteBook.pdb

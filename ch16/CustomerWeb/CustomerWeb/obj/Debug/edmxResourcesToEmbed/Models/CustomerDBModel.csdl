@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CustomerDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="客戶">
+    <Key>
+      <PropertyRef Name="編號" />
+    </Key>
+    <Property Name="編號" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="姓名" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="電話" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="地址" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="CustomerDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="客戶" EntityType="Self.客戶" />
+  </EntityContainer>
+</Schema>

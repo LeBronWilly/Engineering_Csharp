@@ -1,0 +1,7 @@
+C:\C#2019\ch04\indexof\bin\Debug\indexof.exe.config
+C:\C#2019\ch04\indexof\bin\Debug\indexof.exe
+C:\C#2019\ch04\indexof\bin\Debug\indexof.pdb
+C:\C#2019\ch04\indexof\obj\Debug\indexof.csprojAssemblyReference.cache
+C:\C#2019\ch04\indexof\obj\Debug\indexof.csproj.CoreCompileInputs.cache
+C:\C#2019\ch04\indexof\obj\Debug\indexof.exe
+C:\C#2019\ch04\indexof\obj\Debug\indexof.pdb

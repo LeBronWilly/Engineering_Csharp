@@ -1,0 +1,10 @@
+C:\C#2019\ch08\guess\bin\Debug\guess.exe.config
+C:\C#2019\ch08\guess\bin\Debug\guess.exe
+C:\C#2019\ch08\guess\bin\Debug\guess.pdb
+C:\C#2019\ch08\guess\obj\Debug\guess.csprojAssemblyReference.cache
+C:\C#2019\ch08\guess\obj\Debug\guess.Form1.resources
+C:\C#2019\ch08\guess\obj\Debug\guess.Properties.Resources.resources
+C:\C#2019\ch08\guess\obj\Debug\guess.csproj.GenerateResource.cache
+C:\C#2019\ch08\guess\obj\Debug\guess.csproj.CoreCompileInputs.cache
+C:\C#2019\ch08\guess\obj\Debug\guess.exe
+C:\C#2019\ch08\guess\obj\Debug\guess.pdb

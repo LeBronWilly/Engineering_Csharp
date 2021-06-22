@@ -1,0 +1,11 @@
+C:\C#2019\ch03\factorial\bin\Debug\factorial.exe.config
+C:\C#2019\ch03\factorial\bin\Debug\factorial.exe
+C:\C#2019\ch03\factorial\bin\Debug\factorial.pdb
+C:\C#2019\ch03\factorial\obj\Debug\factorial.exe
+C:\C#2019\ch03\factorial\obj\Debug\factorial.pdb
+D:\GitHub\Engineering_C#\ch03\factorial\bin\Debug\factorial.exe.config
+D:\GitHub\Engineering_C#\ch03\factorial\bin\Debug\factorial.exe
+D:\GitHub\Engineering_C#\ch03\factorial\bin\Debug\factorial.pdb
+D:\GitHub\Engineering_C#\ch03\factorial\obj\Debug\factorial.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_C#\ch03\factorial\obj\Debug\factorial.exe
+D:\GitHub\Engineering_C#\ch03\factorial\obj\Debug\factorial.pdb

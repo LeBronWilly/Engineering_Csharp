@@ -1,0 +1,9 @@
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\CountDown\bin\Debug\CountDown.exe.config
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\CountDown\bin\Debug\CountDown.exe
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\CountDown\bin\Debug\CountDown.pdb
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\CountDown\obj\Debug\CountDown.csprojAssemblyReference.cache
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\CountDown\obj\Debug\CountDown.Form1.resources
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\CountDown\obj\Debug\CountDown.Properties.Resources.resources
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\CountDown\obj\Debug\CountDown.csproj.GenerateResource.cache
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\CountDown\obj\Debug\CountDown.exe
+D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\CountDown\obj\Debug\CountDown.pdb

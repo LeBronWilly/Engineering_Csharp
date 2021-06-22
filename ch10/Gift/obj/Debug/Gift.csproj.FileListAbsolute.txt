@@ -1,0 +1,9 @@
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Gift\bin\Debug\Gift.exe.config
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Gift\bin\Debug\Gift.exe
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Gift\bin\Debug\Gift.pdb
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Gift\obj\Debug\Gift.csprojAssemblyReference.cache
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Gift\obj\Debug\Gift.Form1.resources
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Gift\obj\Debug\Gift.Properties.Resources.resources
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Gift\obj\Debug\Gift.csproj.GenerateResource.cache
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Gift\obj\Debug\Gift.exe
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Gift\obj\Debug\Gift.pdb

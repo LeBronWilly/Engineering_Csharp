@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextRW", "TextRW.csproj", "{40710DDD-634C-40E3-8C84-F68567465E4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40710DDD-634C-40E3-8C84-F68567465E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40710DDD-634C-40E3-8C84-F68567465E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40710DDD-634C-40E3-8C84-F68567465E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40710DDD-634C-40E3-8C84-F68567465E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD0032D8-1B60-4109-AA41-8A098B45EC10}
+	EndGlobalSection
+EndGlobal

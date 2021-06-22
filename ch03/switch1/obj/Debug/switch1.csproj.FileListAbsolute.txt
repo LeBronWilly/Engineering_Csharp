@@ -1,0 +1,12 @@
+C:\C#2019\ch03\switch1\bin\Debug\switch1.exe.config
+C:\C#2019\ch03\switch1\bin\Debug\switch1.exe
+C:\C#2019\ch03\switch1\bin\Debug\switch1.pdb
+C:\C#2019\ch03\switch1\obj\Debug\switch1.csprojAssemblyReference.cache
+C:\C#2019\ch03\switch1\obj\Debug\switch1.exe
+C:\C#2019\ch03\switch1\obj\Debug\switch1.pdb
+D:\GitHub\Engineering_C#\ch03\switch1\bin\Debug\switch1.exe.config
+D:\GitHub\Engineering_C#\ch03\switch1\bin\Debug\switch1.exe
+D:\GitHub\Engineering_C#\ch03\switch1\bin\Debug\switch1.pdb
+D:\GitHub\Engineering_C#\ch03\switch1\obj\Debug\switch1.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_C#\ch03\switch1\obj\Debug\switch1.exe
+D:\GitHub\Engineering_C#\ch03\switch1\obj\Debug\switch1.pdb

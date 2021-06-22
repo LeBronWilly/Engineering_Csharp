@@ -1,0 +1,6 @@
+C:\cs2019\ch06\ObjectSetValue\bin\Debug\ObjectSetValue.exe.config
+C:\cs2019\ch06\ObjectSetValue\bin\Debug\ObjectSetValue.exe
+C:\cs2019\ch06\ObjectSetValue\bin\Debug\ObjectSetValue.pdb
+C:\cs2019\ch06\ObjectSetValue\obj\Debug\ObjectSetValue.csprojAssemblyReference.cache
+C:\cs2019\ch06\ObjectSetValue\obj\Debug\ObjectSetValue.exe
+C:\cs2019\ch06\ObjectSetValue\obj\Debug\ObjectSetValue.pdb

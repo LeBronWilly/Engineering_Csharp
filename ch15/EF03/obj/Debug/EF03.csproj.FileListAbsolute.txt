@@ -1,0 +1,17 @@
+C:\CS2019\ch15\EF03\bin\Debug\Northwind.mdf
+C:\CS2019\ch15\EF03\bin\Debug\Northwind_log.ldf
+C:\CS2019\ch15\EF03\bin\Debug\EF03.exe.config
+C:\CS2019\ch15\EF03\bin\Debug\EF03.exe
+C:\CS2019\ch15\EF03\bin\Debug\EF03.pdb
+C:\CS2019\ch15\EF03\bin\Debug\EntityFramework.dll
+C:\CS2019\ch15\EF03\bin\Debug\EntityFramework.SqlServer.dll
+C:\CS2019\ch15\EF03\bin\Debug\EntityFramework.xml
+C:\CS2019\ch15\EF03\bin\Debug\EntityFramework.SqlServer.xml
+C:\CS2019\ch15\EF03\bin\Debug\zh-Hant\EntityFramework.resources.dll
+C:\CS2019\ch15\EF03\obj\Debug\EF03.csprojAssemblyReference.cache
+C:\CS2019\ch15\EF03\obj\Debug\EF03.Properties.Resources.resources
+C:\CS2019\ch15\EF03\obj\Debug\EF03.csproj.GenerateResource.cache
+C:\CS2019\ch15\EF03\obj\Debug\EF03.csproj.CopyComplete
+C:\CS2019\ch15\EF03\obj\Debug\EF03.exe
+C:\CS2019\ch15\EF03\obj\Debug\EF03.pdb
+C:\CS2019\ch15\EF03\obj\Debug\EF03.Form1.resources

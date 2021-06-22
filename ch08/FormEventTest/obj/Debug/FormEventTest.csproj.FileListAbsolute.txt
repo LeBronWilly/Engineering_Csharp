@@ -1,0 +1,10 @@
+C:\C#2019\ch08\FormEventTest\bin\Debug\FormEventTest.exe.config
+C:\C#2019\ch08\FormEventTest\bin\Debug\FormEventTest.exe
+C:\C#2019\ch08\FormEventTest\bin\Debug\FormEventTest.pdb
+C:\C#2019\ch08\FormEventTest\obj\Debug\FormEventTest.csprojAssemblyReference.cache
+C:\C#2019\ch08\FormEventTest\obj\Debug\FormEventTest.Form1.resources
+C:\C#2019\ch08\FormEventTest\obj\Debug\FormEventTest.Properties.Resources.resources
+C:\C#2019\ch08\FormEventTest\obj\Debug\FormEventTest.csproj.GenerateResource.cache
+C:\C#2019\ch08\FormEventTest\obj\Debug\FormEventTest.csproj.CoreCompileInputs.cache
+C:\C#2019\ch08\FormEventTest\obj\Debug\FormEventTest.exe
+C:\C#2019\ch08\FormEventTest\obj\Debug\FormEventTest.pdb

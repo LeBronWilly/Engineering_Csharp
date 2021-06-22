@@ -1,0 +1,5 @@
+C:\cs2019\ch02\writeline1\bin\Debug\writeline1.exe.config
+C:\cs2019\ch02\writeline1\bin\Debug\writeline1.exe
+C:\cs2019\ch02\writeline1\bin\Debug\writeline1.pdb
+C:\cs2019\ch02\writeline1\obj\Debug\writeline1.exe
+C:\cs2019\ch02\writeline1\obj\Debug\writeline1.pdb

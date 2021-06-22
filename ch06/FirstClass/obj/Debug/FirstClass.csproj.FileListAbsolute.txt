@@ -1,0 +1,6 @@
+C:\cs2019\ch06\FirstClass\bin\Debug\FirstClass.exe.config
+C:\cs2019\ch06\FirstClass\bin\Debug\FirstClass.exe
+C:\cs2019\ch06\FirstClass\bin\Debug\FirstClass.pdb
+C:\cs2019\ch06\FirstClass\obj\Debug\FirstClass.csprojAssemblyReference.cache
+C:\cs2019\ch06\FirstClass\obj\Debug\FirstClass.exe
+C:\cs2019\ch06\FirstClass\obj\Debug\FirstClass.pdb

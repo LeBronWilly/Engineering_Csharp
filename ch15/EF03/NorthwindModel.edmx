@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="NorthwindModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="訂貨主檔">
+          <Key>
+            <PropertyRef Name="訂單號碼" />
+          </Key>
+          <Property Name="訂單號碼" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="客戶編號" Type="nvarchar" MaxLength="5" />
+          <Property Name="員工編號" Type="int" />
+          <Property Name="訂單日期" Type="datetime" />
+          <Property Name="要貨日期" Type="datetime" />
+          <Property Name="送貨日期" Type="datetime" />
+          <Property Name="送貨方式" Type="int" />
+          <Property Name="運費" Type="money" />
+          <Property Name="收貨人" Type="nvarchar" MaxLength="40" />
+          <Property Name="送貨地址" Type="nvarchar" MaxLength="60" />
+          <Property Name="送貨城市" Type="nvarchar" MaxLength="15" />
+          <Property Name="送貨行政區" Type="nvarchar" MaxLength="15" />
+          <Property Name="送貨郵遞區號" Type="nvarchar" MaxLength="10" />
+          <Property Name="送貨國家地區" Type="nvarchar" MaxLength="15" />
+        </EntityType>
+        <EntityType Name="訂貨明細">
+          <Key>
+            <PropertyRef Name="訂單號碼" />
+            <PropertyRef Name="產品編號" />
+          </Key>
+          <Property Name="訂單號碼" Type="int" Nullable="false" />
+          <Property Name="產品編號" Type="int" Nullable="false" />
+          <Property Name="單價" Type="money" Nullable="false" />
+          <Property Name="數量" Type="smallint" Nullable="false" />
+          <Property Name="折扣" Type="real" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_訂貨明細_訂貨主檔">
+          <End Role="訂貨主檔" Type="Self.訂貨主檔" Multiplicity="1" />
+          <End Role="訂貨明細" Type="Self.訂貨明細" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="訂貨主檔">
+              <PropertyRef Name="訂單號碼" />
+            </Principal>
+            <Dependent Role="訂貨明細">
+              <PropertyRef Name="訂單號碼" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="NorthwindModelStoreContainer">
+          <EntitySet Name="訂貨主檔" EntityType="Self.訂貨主檔" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="訂貨明細" EntityType="Self.訂貨明細" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_訂貨明細_訂貨主檔" Association="Self.FK_訂貨明細_訂貨主檔">
+            <End Role="訂貨主檔" EntitySet="訂貨主檔" />
+            <End Role="訂貨明細" EntitySet="訂貨明細" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="NorthwindModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="訂貨主檔">
+          <Key>
+            <PropertyRef Name="訂單號碼" />
+          </Key>
+          <Property Name="訂單號碼" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="客戶編號" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+          <Property Name="員工編號" Type="Int32" />
+          <Property Name="訂單日期" Type="DateTime" Precision="3" />
+          <Property Name="要貨日期" Type="DateTime" Precision="3" />
+          <Property Name="送貨日期" Type="DateTime" Precision="3" />
+          <Property Name="送貨方式" Type="Int32" />
+          <Property Name="運費" Type="Decimal" Precision="19" Scale="4" />
+          <Property Name="收貨人" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+          <Property Name="送貨地址" Type="String" MaxLength="60" FixedLength="false" Unicode="true" />
+          <Property Name="送貨城市" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="送貨行政區" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <Property Name="送貨郵遞區號" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="送貨國家地區" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="訂貨明細" Relationship="Self.FK_訂貨明細_訂貨主檔" FromRole="訂貨主檔" ToRole="訂貨明細" />
+        </EntityType>
+        <EntityType Name="訂貨明細">
+          <Key>
+            <PropertyRef Name="訂單號碼" />
+            <PropertyRef Name="產品編號" />
+          </Key>
+          <Property Name="訂單號碼" Type="Int32" Nullable="false" />
+          <Property Name="產品編號" Type="Int32" Nullable="false" />
+          <Property Name="單價" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
+          <Property Name="數量" Type="Int16" Nullable="false" />
+          <Property Name="折扣" Type="Single" Nullable="false" />
+          <NavigationProperty Name="訂貨主檔" Relationship="Self.FK_訂貨明細_訂貨主檔" FromRole="訂貨明細" ToRole="訂貨主檔" />
+        </EntityType>
+        <Association Name="FK_訂貨明細_訂貨主檔">
+          <End Role="訂貨主檔" Type="Self.訂貨主檔" Multiplicity="1" />
+          <End Role="訂貨明細" Type="Self.訂貨明細" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="訂貨主檔">
+              <PropertyRef Name="訂單號碼" />
+            </Principal>
+            <Dependent Role="訂貨明細">
+              <PropertyRef Name="訂單號碼" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="NorthwindEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="訂貨主檔" EntityType="Self.訂貨主檔" />
+          <EntitySet Name="訂貨明細" EntityType="Self.訂貨明細" />
+          <AssociationSet Name="FK_訂貨明細_訂貨主檔" Association="Self.FK_訂貨明細_訂貨主檔">
+            <End Role="訂貨主檔" EntitySet="訂貨主檔" />
+            <End Role="訂貨明細" EntitySet="訂貨明細" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="NorthwindModelStoreContainer" CdmEntityContainer="NorthwindEntities">
+          <EntitySetMapping Name="訂貨主檔">
+            <EntityTypeMapping TypeName="NorthwindModel.訂貨主檔">
+              <MappingFragment StoreEntitySet="訂貨主檔">
+                <ScalarProperty Name="訂單號碼" ColumnName="訂單號碼" />
+                <ScalarProperty Name="客戶編號" ColumnName="客戶編號" />
+                <ScalarProperty Name="員工編號" ColumnName="員工編號" />
+                <ScalarProperty Name="訂單日期" ColumnName="訂單日期" />
+                <ScalarProperty Name="要貨日期" ColumnName="要貨日期" />
+                <ScalarProperty Name="送貨日期" ColumnName="送貨日期" />
+                <ScalarProperty Name="送貨方式" ColumnName="送貨方式" />
+                <ScalarProperty Name="運費" ColumnName="運費" />
+                <ScalarProperty Name="收貨人" ColumnName="收貨人" />
+                <ScalarProperty Name="送貨地址" ColumnName="送貨地址" />
+                <ScalarProperty Name="送貨城市" ColumnName="送貨城市" />
+                <ScalarProperty Name="送貨行政區" ColumnName="送貨行政區" />
+                <ScalarProperty Name="送貨郵遞區號" ColumnName="送貨郵遞區號" />
+                <ScalarProperty Name="送貨國家地區" ColumnName="送貨國家地區" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="訂貨明細">
+            <EntityTypeMapping TypeName="NorthwindModel.訂貨明細">
+              <MappingFragment StoreEntitySet="訂貨明細">
+                <ScalarProperty Name="訂單號碼" ColumnName="訂單號碼" />
+                <ScalarProperty Name="產品編號" ColumnName="產品編號" />
+                <ScalarProperty Name="單價" ColumnName="單價" />
+                <ScalarProperty Name="數量" ColumnName="數量" />
+                <ScalarProperty Name="折扣" ColumnName="折扣" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="無" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

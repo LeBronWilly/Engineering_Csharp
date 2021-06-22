@@ -1,0 +1,9 @@
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Picture\bin\Debug\Picture.exe.config
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Picture\bin\Debug\Picture.exe
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Picture\bin\Debug\Picture.pdb
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Picture\obj\Debug\Picture.csprojAssemblyReference.cache
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Picture\obj\Debug\Picture.Form1.resources
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Picture\obj\Debug\Picture.Properties.Resources.resources
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Picture\obj\Debug\Picture.csproj.GenerateResource.cache
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Picture\obj\Debug\Picture.exe
+D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Picture\obj\Debug\Picture.pdb

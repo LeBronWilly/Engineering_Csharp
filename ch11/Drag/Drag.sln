@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drag", "Drag.csproj", "{DD7ACD4F-C62C-4BEC-BF3D-F2624C7311B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD7ACD4F-C62C-4BEC-BF3D-F2624C7311B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7ACD4F-C62C-4BEC-BF3D-F2624C7311B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7ACD4F-C62C-4BEC-BF3D-F2624C7311B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7ACD4F-C62C-4BEC-BF3D-F2624C7311B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F077E628-366F-49D0-8652-5E5E39F4CFC6}
+	EndGlobalSection
+EndGlobal
