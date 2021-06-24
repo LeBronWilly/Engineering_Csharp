@@ -4,3 +4,10 @@ C:\C#2019\ch03\for1\bin\Debug\for1.pdb
 C:\C#2019\ch03\for1\obj\Debug\for1.exe
 C:\C#2019\ch03\for1\obj\Debug\for1.pdb
 C:\C#2019\ch03\for1\obj\Debug\for1.csprojAssemblyReference.cache
+D:\GitHub\Engineering_C#\ch03\for1\bin\Debug\for1.exe.config
+D:\GitHub\Engineering_C#\ch03\for1\bin\Debug\for1.exe
+D:\GitHub\Engineering_C#\ch03\for1\bin\Debug\for1.pdb
+D:\GitHub\Engineering_C#\ch03\for1\obj\Debug\for1.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_C#\ch03\for1\obj\Debug\for1.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_C#\ch03\for1\obj\Debug\for1.exe
+D:\GitHub\Engineering_C#\ch03\for1\obj\Debug\for1.pdb

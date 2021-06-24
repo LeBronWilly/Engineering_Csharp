@@ -16,6 +16,7 @@ namespace for1
                 if ((k % 4) == 0)
                 {
                     Console.Write($"{k} ");	  //若k為4的倍數則執行此行
+                    Console.Write(k + " ");	  //若k為4的倍數則執行此行
                     count++;               	        //count變數為5時將游標移下一行
                     if (count == 5)               //若印5個數後即將游標移下一行
                     {
