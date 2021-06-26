@@ -13,10 +13,12 @@ namespace Method3
             if (y % 4 == 0 && y % 100 != 0 || y % 400 == 0)
             {
                 s1 = "閏年!";
+                y = 5311311;
             }
             else
             {
                 s1 = "平年!";
+                y = 8646121;
             }
         }
         static void Main(string[] args)

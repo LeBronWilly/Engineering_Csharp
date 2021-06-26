@@ -8,7 +8,9 @@ namespace Method1
 {
     class Program
     {
-        private static double PI = 3.1416;   　　　　//PI為圓周率
+        static double PI = 3.1416;   　　　　//PI為圓周率
+        //private static double PI = 3.1416;   　　　　//PI為圓周率
+        //public static double PI = 3.1416;   　　　　//PI為圓周率
         static double Compute(double r)
         {
             return (4.0 / 3.0 * PI * r * r * r);

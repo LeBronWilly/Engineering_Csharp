@@ -8,7 +8,7 @@ namespace SendArray
 {
     class Program
     {
-        static int GetMax(int[] tempAry)
+        static int GetMax(ref int[] tempAry) // ref可省略
         {
             int max = tempAry[0];
             foreach (int temp in tempAry)
@@ -27,7 +27,7 @@ namespace SendArray
                 Console.Write($"{ary[i]} " );
             }
             Console.WriteLine();
-            Console.WriteLine($"\nary陣列最大數為：{GetMax(ary)}" );
+            Console.WriteLine($"\nary陣列最大數為：{GetMax(ref ary)}" ); // ref以及[]可省略
             Console.Read();
         }
     }

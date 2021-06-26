@@ -4,3 +4,10 @@ C:\C#2019\ch05\SendArray\bin\Debug\SendArray.pdb
 C:\C#2019\ch05\SendArray\obj\Debug\SendArray.csproj.CoreCompileInputs.cache
 C:\C#2019\ch05\SendArray\obj\Debug\SendArray.exe
 C:\C#2019\ch05\SendArray\obj\Debug\SendArray.pdb
+D:\GitHub\Engineering_C#\ch05\SendArray\obj\Debug\SendArray.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_C#\ch05\SendArray\obj\Debug\SendArray.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_C#\ch05\SendArray\obj\Debug\SendArray.exe
+D:\GitHub\Engineering_C#\ch05\SendArray\obj\Debug\SendArray.pdb
+D:\GitHub\Engineering_C#\ch05\SendArray\bin\Debug\SendArray.exe.config
+D:\GitHub\Engineering_C#\ch05\SendArray\bin\Debug\SendArray.exe
+D:\GitHub\Engineering_C#\ch05\SendArray\bin\Debug\SendArray.pdb

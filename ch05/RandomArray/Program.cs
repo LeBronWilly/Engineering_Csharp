@@ -35,7 +35,7 @@ namespace RandomArray
         }
         static void Main(string[] args)
         {
-            int min = 10, max = 20, num = 8;
+            int min = 1, max = 100, num = 20;
             int[] ran = new int[num];
             GetRnd(ran, min, max, num);
             for (int i = 0; i < num; i++)

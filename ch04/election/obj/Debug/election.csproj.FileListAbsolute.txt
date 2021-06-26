@@ -5,3 +5,10 @@ C:\C#2019\ch04\election\obj\Debug\election.csprojAssemblyReference.cache
 C:\C#2019\ch04\election\obj\Debug\election.csproj.CoreCompileInputs.cache
 C:\C#2019\ch04\election\obj\Debug\election.exe
 C:\C#2019\ch04\election\obj\Debug\election.pdb
+D:\GitHub\Engineering_C#\ch04\election\bin\Debug\election.exe.config
+D:\GitHub\Engineering_C#\ch04\election\bin\Debug\election.exe
+D:\GitHub\Engineering_C#\ch04\election\bin\Debug\election.pdb
+D:\GitHub\Engineering_C#\ch04\election\obj\Debug\election.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_C#\ch04\election\obj\Debug\election.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_C#\ch04\election\obj\Debug\election.exe
+D:\GitHub\Engineering_C#\ch04\election\obj\Debug\election.pdb

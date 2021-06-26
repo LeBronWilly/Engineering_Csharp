@@ -5,3 +5,10 @@ C:\C#2019\ch05\Method3\bin\Debug\Method3.exe
 C:\C#2019\ch05\Method3\bin\Debug\Method3.pdb
 C:\C#2019\ch05\Method3\obj\Debug\Method3.exe
 C:\C#2019\ch05\Method3\obj\Debug\Method3.pdb
+D:\GitHub\Engineering_C#\ch05\Method3\bin\Debug\Method3.exe.config
+D:\GitHub\Engineering_C#\ch05\Method3\bin\Debug\Method3.exe
+D:\GitHub\Engineering_C#\ch05\Method3\bin\Debug\Method3.pdb
+D:\GitHub\Engineering_C#\ch05\Method3\obj\Debug\Method3.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_C#\ch05\Method3\obj\Debug\Method3.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_C#\ch05\Method3\obj\Debug\Method3.exe
+D:\GitHub\Engineering_C#\ch05\Method3\obj\Debug\Method3.pdb
