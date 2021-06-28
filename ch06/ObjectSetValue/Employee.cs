@@ -15,25 +15,25 @@ namespace ObjectSetValue
         private int empSalary;		   //empSalary薪資欄位
         public int EmpSalary           //薪資欄位改屬性並限制薪資大於23800
         {
-           get
-           {
-              return empSalary;
-           }
-           set
-           {
-              if (value< 23800)  value = 23800; 
-              empSalary = value;
-           }
+            get
+            {
+                return empSalary;
+            }
+            set
+            {
+                if (value < 23800) value = 23800;
+                empSalary = value;
+            }
         }
         //顯示員工資訊
         public void ShowInfo()
         {
-           Console.WriteLine($"編號：{EmpID}");
-           Console.WriteLine($"姓名：{EmpName}");
-           Console.WriteLine($"電話：{EmpTel}");
-           Console.WriteLine($"住址：{EmpAdd}");
-           Console.WriteLine($"薪資：{EmpSalary}");
-           Console.WriteLine("===========================");
+            Console.WriteLine($"編號：{EmpID}");     //若沒設定初值則會顯示空值(null)或0
+            Console.WriteLine($"姓名：{EmpName}");   //若沒設定初值則會顯示空值(null)或0
+            Console.WriteLine($"電話：{EmpTel}");    //若沒設定初值則會顯示空值(null)或0
+            Console.WriteLine($"住址：{EmpAdd}");    //若沒設定初值則會顯示空值(null)或0
+            Console.WriteLine($"薪資：{EmpSalary}"); //若沒設定初值則會顯示空值(null)或0
+            Console.WriteLine("===========================");
         }
     }
 }

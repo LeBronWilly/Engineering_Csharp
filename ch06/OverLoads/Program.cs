@@ -14,6 +14,7 @@ namespace OverLoads
             anyone.ShowInfo();
             Console.WriteLine("送審中的員工姓名更新後...");
             anyone.ShowInfo("D0007", "劉鑫金", 30000);
+            anyone.ShowInfo();
             //執行第12行時自動呼叫上面程式第28~33行有引數建構式
             Employee person1 = new Employee("A0023", "林婉兒", 37000);
             person1.ShowInfo();

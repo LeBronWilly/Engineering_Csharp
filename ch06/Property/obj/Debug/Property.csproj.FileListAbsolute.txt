@@ -4,3 +4,10 @@ C:\cs2019\ch06\Property\bin\Debug\Property.pdb
 C:\cs2019\ch06\Property\obj\Debug\Property.exe
 C:\cs2019\ch06\Property\obj\Debug\Property.pdb
 C:\cs2019\ch06\Property\obj\Debug\Property.csprojAssemblyReference.cache
+D:\GitHub\Engineering_C#\ch06\Property\bin\Debug\Property.exe.config
+D:\GitHub\Engineering_C#\ch06\Property\bin\Debug\Property.exe
+D:\GitHub\Engineering_C#\ch06\Property\bin\Debug\Property.pdb
+D:\GitHub\Engineering_C#\ch06\Property\obj\Debug\Property.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_C#\ch06\Property\obj\Debug\Property.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_C#\ch06\Property\obj\Debug\Property.exe
+D:\GitHub\Engineering_C#\ch06\Property\obj\Debug\Property.pdb

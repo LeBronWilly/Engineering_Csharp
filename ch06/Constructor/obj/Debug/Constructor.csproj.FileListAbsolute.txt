@@ -4,3 +4,10 @@ C:\cs2019\ch06\Constructor\bin\Debug\Constructor.pdb
 C:\cs2019\ch06\Constructor\obj\Debug\Constructor.csprojAssemblyReference.cache
 C:\cs2019\ch06\Constructor\obj\Debug\Constructor.exe
 C:\cs2019\ch06\Constructor\obj\Debug\Constructor.pdb
+D:\GitHub\Engineering_C#\ch06\Constructor\bin\Debug\Constructor.exe.config
+D:\GitHub\Engineering_C#\ch06\Constructor\bin\Debug\Constructor.exe
+D:\GitHub\Engineering_C#\ch06\Constructor\bin\Debug\Constructor.pdb
+D:\GitHub\Engineering_C#\ch06\Constructor\obj\Debug\Constructor.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_C#\ch06\Constructor\obj\Debug\Constructor.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_C#\ch06\Constructor\obj\Debug\Constructor.exe
+D:\GitHub\Engineering_C#\ch06\Constructor\obj\Debug\Constructor.pdb
