@@ -17,7 +17,8 @@ namespace ClassInherits
             Triangle t = new Triangle { Width = 10, Height = 5 };   // 建立三角形物件t
             t.ShowData();
             Console.WriteLine("=================================");
-            Rectangle.ShowNum();  //顯示產生多少個圖形也可用Triangle.ShowNum();
+            Rectangle.ShowNum();  // 顯示產生多少個圖形也可用Triangle.ShowNum();
+            Triangle.ShowNum();  // 和Rectangle.ShowNum()一樣
             Console.Read();
         }
     }

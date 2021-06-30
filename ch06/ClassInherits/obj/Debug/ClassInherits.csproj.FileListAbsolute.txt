@@ -4,3 +4,10 @@ C:\cs2019\ch06\ClassInherits\bin\Debug\ClassInherits.exe
 C:\cs2019\ch06\ClassInherits\bin\Debug\ClassInherits.pdb
 C:\cs2019\ch06\ClassInherits\obj\Debug\ClassInherits.exe
 C:\cs2019\ch06\ClassInherits\obj\Debug\ClassInherits.pdb
+D:\GitHub\Engineering_Csharp\ch06\ClassInherits\bin\Debug\ClassInherits.exe.config
+D:\GitHub\Engineering_Csharp\ch06\ClassInherits\bin\Debug\ClassInherits.exe
+D:\GitHub\Engineering_Csharp\ch06\ClassInherits\bin\Debug\ClassInherits.pdb
+D:\GitHub\Engineering_Csharp\ch06\ClassInherits\obj\Debug\ClassInherits.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_Csharp\ch06\ClassInherits\obj\Debug\ClassInherits.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch06\ClassInherits\obj\Debug\ClassInherits.exe
+D:\GitHub\Engineering_Csharp\ch06\ClassInherits\obj\Debug\ClassInherits.pdb

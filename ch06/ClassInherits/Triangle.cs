@@ -14,7 +14,7 @@ namespace ClassInherits
         //所以必須重新定義GetArea方法
         public override int GetArea()        //取得三角形的面積
         {
-           return (Width* Height) / 2;  	//寬(底)*高/2=三角形的面積
+            return (Width * Height) / 2;  	//寬(底)*高/2=三角形的面積
         }
         //新增ShowData方法，用來顯示三角形的寬, 高, 面積
         public void ShowData()

@@ -17,6 +17,7 @@ namespace StaticMember
             person2.ShowInfo("B0104", "王柏仁", 19000);
             //呼叫Employee類別的Num靜態屬性
             Console.WriteLine("目前建立第 {0} 位員工資料!!", Employee.Num);
+            Console.WriteLine($"目前建立第 {Employee.Num} 位員工資料!!");
             Console.Read();
         }
     }

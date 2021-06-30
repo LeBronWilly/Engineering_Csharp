@@ -4,3 +4,10 @@ C:\cs2019\ch06\StaticMember\bin\Debug\StaticMember.pdb
 C:\cs2019\ch06\StaticMember\obj\Debug\StaticMember.csprojAssemblyReference.cache
 C:\cs2019\ch06\StaticMember\obj\Debug\StaticMember.exe
 C:\cs2019\ch06\StaticMember\obj\Debug\StaticMember.pdb
+D:\GitHub\Engineering_Csharp\ch06\StaticMember\bin\Debug\StaticMember.exe.config
+D:\GitHub\Engineering_Csharp\ch06\StaticMember\bin\Debug\StaticMember.exe
+D:\GitHub\Engineering_Csharp\ch06\StaticMember\bin\Debug\StaticMember.pdb
+D:\GitHub\Engineering_Csharp\ch06\StaticMember\obj\Debug\StaticMember.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_Csharp\ch06\StaticMember\obj\Debug\StaticMember.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch06\StaticMember\obj\Debug\StaticMember.exe
+D:\GitHub\Engineering_Csharp\ch06\StaticMember\obj\Debug\StaticMember.pdb

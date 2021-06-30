@@ -8,8 +8,8 @@ namespace StaticMember
 {
     class Employee
     {
-        public string EmpID { get; set; }  
-        public string EmpName { get; set; } 
+        public string EmpID { get; set; }
+        public string EmpName { get; set; }
         private int empSalary;   	         //empSalary為私有欄位成員       
         public int EmpSalary
         {
@@ -17,7 +17,7 @@ namespace StaticMember
             { return empSalary; }
             set
             {
-                if (value< 23800)
+                if (value < 23800)
                     value = 23800;   //若value小於23800,則指定value為23800
                 empSalary = value;
             }
@@ -33,7 +33,7 @@ namespace StaticMember
         {
             Console.WriteLine($"目前共建立 {num} 位員工資料!!\n");
         }
-       
+
         // --------------------------------------------------------------- 
         public void ShowInfo()   //無引數的ShowInfo()方法多載, 可顯示員工資訊
         {

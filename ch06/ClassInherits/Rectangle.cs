@@ -20,7 +20,7 @@ namespace ClassInherits
         // 定義方法為virtual，表示該方法可讓衍生類別重新定義父類別方法
         public virtual int GetArea()  		//取得矩形的面積
         {
-            return Width* Height;             //寬*高=矩形的面積
+            return Width * Height;             //寬*高=矩形的面積
         }
         //顯示共產生多少個圖形
         public static void ShowNum()
