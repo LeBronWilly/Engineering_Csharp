@@ -8,3 +8,13 @@ C:\C#2019\ch07\hello\obj\Debug\hello.csproj.GenerateResource.cache
 C:\C#2019\ch07\hello\obj\Debug\hello.csproj.CoreCompileInputs.cache
 C:\C#2019\ch07\hello\obj\Debug\hello.exe
 C:\C#2019\ch07\hello\obj\Debug\hello.pdb
+D:\GitHub\Engineering_Csharp\ch07\hello\bin\Debug\hello.exe.config
+D:\GitHub\Engineering_Csharp\ch07\hello\bin\Debug\hello.exe
+D:\GitHub\Engineering_Csharp\ch07\hello\bin\Debug\hello.pdb
+D:\GitHub\Engineering_Csharp\ch07\hello\obj\Debug\hello.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_Csharp\ch07\hello\obj\Debug\hello.Form1.resources
+D:\GitHub\Engineering_Csharp\ch07\hello\obj\Debug\hello.Properties.Resources.resources
+D:\GitHub\Engineering_Csharp\ch07\hello\obj\Debug\hello.csproj.GenerateResource.cache
+D:\GitHub\Engineering_Csharp\ch07\hello\obj\Debug\hello.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch07\hello\obj\Debug\hello.exe
+D:\GitHub\Engineering_Csharp\ch07\hello\obj\Debug\hello.pdb
