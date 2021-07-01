@@ -22,32 +22,56 @@ namespace msgbox1
             DialogResult result;
             num++;
 
-            if ((txtID.Text == "google") && (txtPW.Text == "1688"))
+            if ((txtID.Text == "LBJ") && (txtPW.Text == "23"))
             {
-                MessageBox.Show("歡迎光臨, Google網站");
+                result = MessageBox.Show("歡迎光臨, Google網站");
                 System.Diagnostics.Process.Start("http://www.google.com.tw");
                 Application.Exit();
             }
             else
             {
-                if(num == 3)
+                if (num == 3)
                 {
                     MessageBox.Show("帳號密碼連續三次輸入錯誤\n無法進入Google網站");
+                    MessageBox.Show("8888888888888");
                     Application.Exit();
                 }
                 else
                 {
-                    result = MessageBox.Show($"你的帳號密碼有誤，剩下{3-num}次！是否重新輸入？",
+                    result = MessageBox.Show($"你的帳號密碼有誤，剩下{3 - num}次！" +
+                        $"是否重新輸入？",
                         "帳號密碼錯誤", MessageBoxButtons.YesNo);
-                    if (result == DialogResult.No) 
+                    if (result == DialogResult.No)
+                    {
+                        MessageBox.Show("8888888888888");
                         Application.Exit();
+                    }
+                    else
+                    {
+                        txtID.Text = "";
+                        txtPW.Text = "";
+                    }
+
                 }
             }
         }
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            DialogResult result;
+            result = MessageBox.Show("尼TM確定要離開嗎",
+                "Are you sure?", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                MessageBox.Show("8888888888888");
+                Application.Exit();
+            }
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

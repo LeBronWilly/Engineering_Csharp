@@ -8,3 +8,13 @@ C:\C#2019\ch08\msgbox1\obj\Debug\msgbox1.csproj.GenerateResource.cache
 C:\C#2019\ch08\msgbox1\obj\Debug\msgbox1.csproj.CoreCompileInputs.cache
 C:\C#2019\ch08\msgbox1\obj\Debug\msgbox1.exe
 C:\C#2019\ch08\msgbox1\obj\Debug\msgbox1.pdb
+D:\GitHub\Engineering_Csharp\ch08\msgbox1\bin\Debug\msgbox1.exe.config
+D:\GitHub\Engineering_Csharp\ch08\msgbox1\bin\Debug\msgbox1.exe
+D:\GitHub\Engineering_Csharp\ch08\msgbox1\bin\Debug\msgbox1.pdb
+D:\GitHub\Engineering_Csharp\ch08\msgbox1\obj\Debug\msgbox1.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_Csharp\ch08\msgbox1\obj\Debug\msgbox1.Form1.resources
+D:\GitHub\Engineering_Csharp\ch08\msgbox1\obj\Debug\msgbox1.Properties.Resources.resources
+D:\GitHub\Engineering_Csharp\ch08\msgbox1\obj\Debug\msgbox1.csproj.GenerateResource.cache
+D:\GitHub\Engineering_Csharp\ch08\msgbox1\obj\Debug\msgbox1.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch08\msgbox1\obj\Debug\msgbox1.exe
+D:\GitHub\Engineering_Csharp\ch08\msgbox1\obj\Debug\msgbox1.pdb

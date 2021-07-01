@@ -8,3 +8,13 @@ C:\C#2019\ch08\FormEventTest\obj\Debug\FormEventTest.csproj.GenerateResource.cac
 C:\C#2019\ch08\FormEventTest\obj\Debug\FormEventTest.csproj.CoreCompileInputs.cache
 C:\C#2019\ch08\FormEventTest\obj\Debug\FormEventTest.exe
 C:\C#2019\ch08\FormEventTest\obj\Debug\FormEventTest.pdb
+D:\GitHub\Engineering_Csharp\ch08\FormEventTest\bin\Debug\FormEventTest.exe.config
+D:\GitHub\Engineering_Csharp\ch08\FormEventTest\bin\Debug\FormEventTest.exe
+D:\GitHub\Engineering_Csharp\ch08\FormEventTest\bin\Debug\FormEventTest.pdb
+D:\GitHub\Engineering_Csharp\ch08\FormEventTest\obj\Debug\FormEventTest.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_Csharp\ch08\FormEventTest\obj\Debug\FormEventTest.Form1.resources
+D:\GitHub\Engineering_Csharp\ch08\FormEventTest\obj\Debug\FormEventTest.Properties.Resources.resources
+D:\GitHub\Engineering_Csharp\ch08\FormEventTest\obj\Debug\FormEventTest.csproj.GenerateResource.cache
+D:\GitHub\Engineering_Csharp\ch08\FormEventTest\obj\Debug\FormEventTest.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch08\FormEventTest\obj\Debug\FormEventTest.exe
+D:\GitHub\Engineering_Csharp\ch08\FormEventTest\obj\Debug\FormEventTest.pdb

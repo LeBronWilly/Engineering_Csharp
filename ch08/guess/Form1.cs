@@ -16,6 +16,12 @@ namespace guess
         {
             InitializeComponent();
         }
+
+
+
+
+
+
         int win, loss, same, pc;
 
         private void btn0_Click(object sender, EventArgs e)
@@ -37,7 +43,11 @@ namespace guess
                 str = "電腦出布，結果你贏";
                 win++;
             }
-            lblMsg.Text = $"你出剪刀，{str}\n戰績：贏({win})平手({same})敗({loss})";
+            lblMsg.Text = $"你出剪刀，{str}\n" +
+                $"戰績：\n" +
+                $"贏：({win})\n" +
+                $"平手：({same})\n" +
+                $"敗：({loss})";
             btn0.Enabled = btn1.Enabled = btn2.Enabled = false;
             btnGo.Enabled = btnExit.Enabled = true;
             lblTitle.Text = "按開始鈕進行遊戲，按結束鈕結束遊戲";
@@ -65,7 +75,11 @@ namespace guess
                     win++;
                 }
             }
-            lblMsg.Text = $"你出石頭，{str}\n戰績：贏({win})平手({same})敗({loss})";
+            lblMsg.Text = $"你出石頭，{str}\n" +
+                $"戰績：\n" +
+                $"贏：({win})\n" +
+                $"平手：({same})\n" +
+                $"敗：({loss})";
             btn0.Enabled = btn1.Enabled = btn2.Enabled = false;
             btnGo.Enabled = btnExit.Enabled = true;
             lblTitle.Text = "按開始鈕進行遊戲，按結束鈕結束遊戲";
@@ -90,7 +104,11 @@ namespace guess
                     same++;
                     break;
             }
-            lblMsg.Text = $"你出布，{str}\n戰績：贏({win})平手({same})敗({loss})";
+            lblMsg.Text = $"你出布，{str}\n" +
+                $"戰績：\n" +
+                $"贏：({win})\n" +
+                $"平手：({same})\n" +
+                $"敗：({loss})";
             btn0.Enabled = btn1.Enabled = btn2.Enabled = false;
             btnGo.Enabled = btnExit.Enabled = true;
             lblTitle.Text = "按開始鈕進行遊戲，按結束鈕結束遊戲";

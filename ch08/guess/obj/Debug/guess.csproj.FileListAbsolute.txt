@@ -8,3 +8,13 @@ C:\C#2019\ch08\guess\obj\Debug\guess.csproj.GenerateResource.cache
 C:\C#2019\ch08\guess\obj\Debug\guess.csproj.CoreCompileInputs.cache
 C:\C#2019\ch08\guess\obj\Debug\guess.exe
 C:\C#2019\ch08\guess\obj\Debug\guess.pdb
+D:\GitHub\Engineering_Csharp\ch08\guess\bin\Debug\guess.exe.config
+D:\GitHub\Engineering_Csharp\ch08\guess\bin\Debug\guess.exe
+D:\GitHub\Engineering_Csharp\ch08\guess\bin\Debug\guess.pdb
+D:\GitHub\Engineering_Csharp\ch08\guess\obj\Debug\guess.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_Csharp\ch08\guess\obj\Debug\guess.Form1.resources
+D:\GitHub\Engineering_Csharp\ch08\guess\obj\Debug\guess.Properties.Resources.resources
+D:\GitHub\Engineering_Csharp\ch08\guess\obj\Debug\guess.csproj.GenerateResource.cache
+D:\GitHub\Engineering_Csharp\ch08\guess\obj\Debug\guess.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch08\guess\obj\Debug\guess.exe
+D:\GitHub\Engineering_Csharp\ch08\guess\obj\Debug\guess.pdb

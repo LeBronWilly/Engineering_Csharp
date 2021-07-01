@@ -37,82 +37,91 @@
             this.btn0 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // BtnGo
+            // btnGo
             // 
-            this.btnGo.Location = new System.Drawing.Point(11, 95);
-            this.btnGo.Name = "BtnGo";
-            this.btnGo.Size = new System.Drawing.Size(75, 23);
+            this.btnGo.Location = new System.Drawing.Point(216, 226);
+            this.btnGo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnGo.Name = "btnGo";
+            this.btnGo.Size = new System.Drawing.Size(100, 29);
             this.btnGo.TabIndex = 0;
             this.btnGo.Text = "開始";
             this.btnGo.UseVisualStyleBackColor = true;
             this.btnGo.Click += new System.EventHandler(this.btnGo_Click);
             // 
-            // BtnExit
+            // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(150, 95);
-            this.btnExit.Name = "BtnExit";
-            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.Location = new System.Drawing.Point(401, 226);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(100, 29);
             this.btnExit.TabIndex = 1;
             this.btnExit.Text = "結束";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // LblTitle
+            // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Location = new System.Drawing.Point(11, 9);
-            this.lblTitle.Name = "LblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(33, 12);
+            this.lblTitle.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lblTitle.Location = new System.Drawing.Point(216, 110);
+            this.lblTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(71, 25);
             this.lblTitle.TabIndex = 2;
             this.lblTitle.Text = "label1";
             // 
-            // LblMsg
+            // lblMsg
             // 
             this.lblMsg.AutoSize = true;
-            this.lblMsg.Location = new System.Drawing.Point(11, 131);
-            this.lblMsg.Name = "LblMsg";
-            this.lblMsg.Size = new System.Drawing.Size(33, 12);
+            this.lblMsg.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lblMsg.Location = new System.Drawing.Point(216, 271);
+            this.lblMsg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMsg.Name = "lblMsg";
+            this.lblMsg.Size = new System.Drawing.Size(71, 25);
             this.lblMsg.TabIndex = 3;
             this.lblMsg.Text = "label2";
             // 
-            // Btn2
+            // btn2
             // 
             this.btn2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn2.Image = global::guess.Properties.Resources.布;
-            this.btn2.Location = new System.Drawing.Point(179, 34);
-            this.btn2.Name = "Btn2";
-            this.btn2.Size = new System.Drawing.Size(46, 46);
+            this.btn2.Location = new System.Drawing.Point(440, 149);
+            this.btn2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn2.Name = "btn2";
+            this.btn2.Size = new System.Drawing.Size(61, 58);
             this.btn2.TabIndex = 6;
             this.btn2.UseVisualStyleBackColor = true;
             this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
-            // Btn1
+            // btn1
             // 
             this.btn1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn1.Image = global::guess.Properties.Resources.石頭;
-            this.btn1.Location = new System.Drawing.Point(95, 34);
-            this.btn1.Name = "Btn1";
-            this.btn1.Size = new System.Drawing.Size(46, 46);
+            this.btn1.Location = new System.Drawing.Point(328, 149);
+            this.btn1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn1.Name = "btn1";
+            this.btn1.Size = new System.Drawing.Size(61, 58);
             this.btn1.TabIndex = 5;
             this.btn1.UseVisualStyleBackColor = true;
             this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
-            // Btn0
+            // btn0
             // 
             this.btn0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btn0.Image = global::guess.Properties.Resources.剪刀;
-            this.btn0.Location = new System.Drawing.Point(11, 34);
-            this.btn0.Name = "Btn0";
-            this.btn0.Size = new System.Drawing.Size(46, 46);
+            this.btn0.Location = new System.Drawing.Point(216, 149);
+            this.btn0.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn0.Name = "btn0";
+            this.btn0.Size = new System.Drawing.Size(61, 58);
             this.btn0.TabIndex = 4;
             this.btn0.UseVisualStyleBackColor = true;
             this.btn0.Click += new System.EventHandler(this.btn0_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(237, 169);
+            this.ClientSize = new System.Drawing.Size(767, 432);
             this.Controls.Add(this.btn2);
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.btn0);
@@ -120,6 +129,7 @@
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnGo);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

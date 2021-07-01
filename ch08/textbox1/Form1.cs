@@ -21,9 +21,19 @@ namespace textbox1
         {
             float us;
             if (float.TryParse(txtIn.Text, out us))
-                txtOut.Text = $"{us * 30.3}元";
+            {
+                txtOut.Text = $"{us * 27.91}元";
+                label3.Text = Convert.ToString(txtIn.Text.Length) + "字";
+                //label3.Text += "字";
+            }
+
             else
                 txtIn.Text = "0";
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
