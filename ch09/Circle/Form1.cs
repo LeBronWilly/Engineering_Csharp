@@ -34,11 +34,20 @@ namespace Circle
 
         private void btnOK_Click(object sender, EventArgs e)
         {
-            int r = int.Parse(txtR.Text);   //讀取半徑值並轉為整數
-            if (rdbL.Checked == true)  //若rdbL被選取
-                lblAns.Text = $"圓周長為 {Math.Round(Math.PI * 2 * r,2)} {unit}";
+            //double r = double.Parse(txtR.Text);   //讀取半徑值並轉為整數
+            double r;
+            if (double.TryParse(txtR.Text, out r) && r >= 0.0)
+            {
+                if (rdbL.Checked == true)  //若rdbL被選取
+                    lblAns.Text = $"圓周長為 {Math.Round(Math.PI * 2 * r, 2)} {unit}";
+                else
+                    lblAns.Text = $"圓面積為 {Math.Round(Math.PI * r * r, 2)} 平方{unit}";
+            }
             else
-                lblAns.Text = $"圓面積為 {Math.Round(Math.PI * r * r,2)} 平方{unit}";
+            {
+                MessageBox.Show("數值格式錯誤喇乾！");
+            }
+
         }
     }
 }

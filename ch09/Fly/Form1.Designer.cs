@@ -36,6 +36,8 @@
             this.imgBirds = new System.Windows.Forms.ImageList(this.components);
             this.tmrFly = new System.Windows.Forms.Timer(this.components);
             this.picBird = new System.Windows.Forms.PictureBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picBird)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,9 +45,10 @@
             // 
             this.btnStart.ImageIndex = 0;
             this.btnStart.ImageList = this.imgBtn;
-            this.btnStart.Location = new System.Drawing.Point(342, 143);
+            this.btnStart.Location = new System.Drawing.Point(456, 179);
+            this.btnStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(50, 50);
+            this.btnStart.Size = new System.Drawing.Size(67, 62);
             this.btnStart.TabIndex = 0;
             this.btnStart.UseVisualStyleBackColor = true;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
@@ -61,9 +64,10 @@
             // 
             this.btnStop.ImageIndex = 1;
             this.btnStop.ImageList = this.imgBtn;
-            this.btnStop.Location = new System.Drawing.Point(342, 199);
+            this.btnStop.Location = new System.Drawing.Point(456, 249);
+            this.btnStop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnStop.Name = "btnStop";
-            this.btnStop.Size = new System.Drawing.Size(50, 50);
+            this.btnStop.Size = new System.Drawing.Size(67, 62);
             this.btnStop.TabIndex = 1;
             this.btnStop.UseVisualStyleBackColor = true;
             this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
@@ -85,26 +89,52 @@
             // 
             // picBird
             // 
-            this.picBird.Location = new System.Drawing.Point(134, 26);
+            this.picBird.Location = new System.Drawing.Point(179, 32);
+            this.picBird.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picBird.Name = "picBird";
-            this.picBird.Size = new System.Drawing.Size(119, 86);
+            this.picBird.Size = new System.Drawing.Size(159, 108);
             this.picBird.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picBird.TabIndex = 2;
             this.picBird.TabStop = false;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(209, 270);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 25);
+            this.textBox1.TabIndex = 3;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label1.Location = new System.Drawing.Point(127, 272);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(70, 20);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Speed: ";
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(404, 261);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(539, 326);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.picBird);
             this.Controls.Add(this.btnStop);
             this.Controls.Add(this.btnStart);
+            this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picBird)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -116,6 +146,8 @@
         private System.Windows.Forms.ImageList imgBirds;
         private System.Windows.Forms.Timer tmrFly;
         private System.Windows.Forms.PictureBox picBird;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label1;
     }
 }
 

@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtR = new System.Windows.Forms.TextBox();
-            this.lblAns = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnOK = new System.Windows.Forms.Button();
-            this.rdbL = new System.Windows.Forms.RadioButton();
+            this.lblAns = new System.Windows.Forms.Label();
+            this.txtR = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.rdbA = new System.Windows.Forms.RadioButton();
+            this.rdbL = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.rdbCm = new System.Windows.Forms.RadioButton();
             this.rdbInch = new System.Windows.Forms.RadioButton();
+            this.rdbCm = new System.Windows.Forms.RadioButton();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -51,122 +51,136 @@
             this.panel1.Controls.Add(this.lblAns);
             this.panel1.Controls.Add(this.txtR);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Location = new System.Drawing.Point(134, 91);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(266, 80);
+            this.panel1.Size = new System.Drawing.Size(353, 99);
             this.panel1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 17);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 12);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "輸入半徑：";
-            // 
-            // txtR
-            // 
-            this.txtR.Location = new System.Drawing.Point(74, 14);
-            this.txtR.Name = "txtR";
-            this.txtR.Size = new System.Drawing.Size(100, 22);
-            this.txtR.TabIndex = 1;
-            // 
-            // lblAns
-            // 
-            this.lblAns.AutoSize = true;
-            this.lblAns.Font = new System.Drawing.Font("新細明體", 12F);
-            this.lblAns.Location = new System.Drawing.Point(11, 47);
-            this.lblAns.Name = "lblAns";
-            this.lblAns.Size = new System.Drawing.Size(46, 16);
-            this.lblAns.TabIndex = 2;
-            this.lblAns.Text = "label2";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.rdbA);
-            this.groupBox1.Controls.Add(this.rdbL);
-            this.groupBox1.Location = new System.Drawing.Point(12, 108);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(120, 69);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "計算類別";
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(192, 13);
+            this.btnOK.Location = new System.Drawing.Point(256, 16);
+            this.btnOK.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(54, 23);
+            this.btnOK.Size = new System.Drawing.Size(72, 29);
             this.btnOK.TabIndex = 3;
             this.btnOK.Text = "計算";
             this.btnOK.UseVisualStyleBackColor = true;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
-            // rdbL
+            // lblAns
             // 
-            this.rdbL.AutoSize = true;
-            this.rdbL.Location = new System.Drawing.Point(17, 21);
-            this.rdbL.Name = "rdbL";
-            this.rdbL.Size = new System.Drawing.Size(59, 16);
-            this.rdbL.TabIndex = 0;
-            this.rdbL.TabStop = true;
-            this.rdbL.Text = "圓周長";
-            this.rdbL.UseVisualStyleBackColor = true;
+            this.lblAns.AutoSize = true;
+            this.lblAns.Font = new System.Drawing.Font("新細明體", 12F);
+            this.lblAns.Location = new System.Drawing.Point(15, 59);
+            this.lblAns.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblAns.Name = "lblAns";
+            this.lblAns.Size = new System.Drawing.Size(53, 20);
+            this.lblAns.TabIndex = 2;
+            this.lblAns.Text = "label2";
+            // 
+            // txtR
+            // 
+            this.txtR.Location = new System.Drawing.Point(99, 18);
+            this.txtR.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtR.Name = "txtR";
+            this.txtR.Size = new System.Drawing.Size(132, 25);
+            this.txtR.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(17, 21);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(82, 15);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "輸入半徑：";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.rdbA);
+            this.groupBox1.Controls.Add(this.rdbL);
+            this.groupBox1.Location = new System.Drawing.Point(134, 211);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(160, 86);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "計算類別";
             // 
             // rdbA
             // 
             this.rdbA.AutoSize = true;
-            this.rdbA.Location = new System.Drawing.Point(17, 43);
+            this.rdbA.Location = new System.Drawing.Point(23, 54);
+            this.rdbA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdbA.Name = "rdbA";
-            this.rdbA.Size = new System.Drawing.Size(59, 16);
+            this.rdbA.Size = new System.Drawing.Size(73, 19);
             this.rdbA.TabIndex = 1;
             this.rdbA.TabStop = true;
             this.rdbA.Text = "圓面積";
             this.rdbA.UseVisualStyleBackColor = true;
             // 
+            // rdbL
+            // 
+            this.rdbL.AutoSize = true;
+            this.rdbL.Location = new System.Drawing.Point(23, 26);
+            this.rdbL.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdbL.Name = "rdbL";
+            this.rdbL.Size = new System.Drawing.Size(73, 19);
+            this.rdbL.TabIndex = 0;
+            this.rdbL.TabStop = true;
+            this.rdbL.Text = "圓周長";
+            this.rdbL.UseVisualStyleBackColor = true;
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.rdbInch);
             this.groupBox2.Controls.Add(this.rdbCm);
-            this.groupBox2.Location = new System.Drawing.Point(154, 108);
+            this.groupBox2.Location = new System.Drawing.Point(323, 211);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(124, 69);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(165, 86);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "單位";
             // 
+            // rdbInch
+            // 
+            this.rdbInch.AutoSize = true;
+            this.rdbInch.Location = new System.Drawing.Point(21, 54);
+            this.rdbInch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.rdbInch.Name = "rdbInch";
+            this.rdbInch.Size = new System.Drawing.Size(58, 19);
+            this.rdbInch.TabIndex = 1;
+            this.rdbInch.TabStop = true;
+            this.rdbInch.Text = "英吋";
+            this.rdbInch.UseVisualStyleBackColor = true;
+            // 
             // rdbCm
             // 
             this.rdbCm.AutoSize = true;
-            this.rdbCm.Location = new System.Drawing.Point(16, 21);
+            this.rdbCm.Location = new System.Drawing.Point(21, 26);
+            this.rdbCm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdbCm.Name = "rdbCm";
-            this.rdbCm.Size = new System.Drawing.Size(47, 16);
+            this.rdbCm.Size = new System.Drawing.Size(58, 19);
             this.rdbCm.TabIndex = 0;
             this.rdbCm.TabStop = true;
             this.rdbCm.Text = "公分";
             this.rdbCm.UseVisualStyleBackColor = true;
             this.rdbCm.CheckedChanged += new System.EventHandler(this.rdbCm_CheckedChanged);
             // 
-            // rdbInch
-            // 
-            this.rdbInch.AutoSize = true;
-            this.rdbInch.Location = new System.Drawing.Point(16, 43);
-            this.rdbInch.Name = "rdbInch";
-            this.rdbInch.Size = new System.Drawing.Size(47, 16);
-            this.rdbInch.TabIndex = 1;
-            this.rdbInch.TabStop = true;
-            this.rdbInch.Text = "英吋";
-            this.rdbInch.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(297, 190);
+            this.ClientSize = new System.Drawing.Size(656, 407);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

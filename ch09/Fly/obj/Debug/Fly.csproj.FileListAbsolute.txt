@@ -7,3 +7,13 @@ D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Fly\obj\Debug\Fly.Pro
 D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Fly\obj\Debug\Fly.csproj.GenerateResource.cache
 D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Fly\obj\Debug\Fly.exe
 D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Fly\obj\Debug\Fly.pdb
+D:\GitHub\Engineering_Csharp\ch09\Fly\bin\Debug\Fly.exe.config
+D:\GitHub\Engineering_Csharp\ch09\Fly\bin\Debug\Fly.exe
+D:\GitHub\Engineering_Csharp\ch09\Fly\bin\Debug\Fly.pdb
+D:\GitHub\Engineering_Csharp\ch09\Fly\obj\Debug\Fly.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_Csharp\ch09\Fly\obj\Debug\Fly.Form1.resources
+D:\GitHub\Engineering_Csharp\ch09\Fly\obj\Debug\Fly.Properties.Resources.resources
+D:\GitHub\Engineering_Csharp\ch09\Fly\obj\Debug\Fly.csproj.GenerateResource.cache
+D:\GitHub\Engineering_Csharp\ch09\Fly\obj\Debug\Fly.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch09\Fly\obj\Debug\Fly.exe
+D:\GitHub\Engineering_Csharp\ch09\Fly\obj\Debug\Fly.pdb

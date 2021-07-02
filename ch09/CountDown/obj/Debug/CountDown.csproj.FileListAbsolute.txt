@@ -7,3 +7,13 @@ D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\CountDown\obj\Debug\C
 D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\CountDown\obj\Debug\CountDown.csproj.GenerateResource.cache
 D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\CountDown\obj\Debug\CountDown.exe
 D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\CountDown\obj\Debug\CountDown.pdb
+D:\GitHub\Engineering_Csharp\ch09\CountDown\bin\Debug\CountDown.exe.config
+D:\GitHub\Engineering_Csharp\ch09\CountDown\bin\Debug\CountDown.exe
+D:\GitHub\Engineering_Csharp\ch09\CountDown\bin\Debug\CountDown.pdb
+D:\GitHub\Engineering_Csharp\ch09\CountDown\obj\Debug\CountDown.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_Csharp\ch09\CountDown\obj\Debug\CountDown.Form1.resources
+D:\GitHub\Engineering_Csharp\ch09\CountDown\obj\Debug\CountDown.Properties.Resources.resources
+D:\GitHub\Engineering_Csharp\ch09\CountDown\obj\Debug\CountDown.csproj.GenerateResource.cache
+D:\GitHub\Engineering_Csharp\ch09\CountDown\obj\Debug\CountDown.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch09\CountDown\obj\Debug\CountDown.exe
+D:\GitHub\Engineering_Csharp\ch09\CountDown\obj\Debug\CountDown.pdb

@@ -1,0 +1,10 @@
+D:\GitHub\Engineering_Csharp\ch09\LoadImage\bin\Debug\LoadImage.exe.config
+D:\GitHub\Engineering_Csharp\ch09\LoadImage\bin\Debug\LoadImage.exe
+D:\GitHub\Engineering_Csharp\ch09\LoadImage\bin\Debug\LoadImage.pdb
+D:\GitHub\Engineering_Csharp\ch09\LoadImage\obj\Debug\LoadImage.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_Csharp\ch09\LoadImage\obj\Debug\LoadImage.Form1.resources
+D:\GitHub\Engineering_Csharp\ch09\LoadImage\obj\Debug\LoadImage.Properties.Resources.resources
+D:\GitHub\Engineering_Csharp\ch09\LoadImage\obj\Debug\LoadImage.csproj.GenerateResource.cache
+D:\GitHub\Engineering_Csharp\ch09\LoadImage\obj\Debug\LoadImage.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch09\LoadImage\obj\Debug\LoadImage.exe
+D:\GitHub\Engineering_Csharp\ch09\LoadImage\obj\Debug\LoadImage.pdb

@@ -7,3 +7,13 @@ D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Circle\obj\Debug\Circ
 D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Circle\obj\Debug\Circle.csproj.GenerateResource.cache
 D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Circle\obj\Debug\Circle.exe
 D:\08從零開始\VisualC#2019從零開始\ch09\ch09範例\Circle\obj\Debug\Circle.pdb
+D:\GitHub\Engineering_Csharp\ch09\Circle\bin\Debug\Circle.exe.config
+D:\GitHub\Engineering_Csharp\ch09\Circle\bin\Debug\Circle.exe
+D:\GitHub\Engineering_Csharp\ch09\Circle\bin\Debug\Circle.pdb
+D:\GitHub\Engineering_Csharp\ch09\Circle\obj\Debug\Circle.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_Csharp\ch09\Circle\obj\Debug\Circle.Form1.resources
+D:\GitHub\Engineering_Csharp\ch09\Circle\obj\Debug\Circle.Properties.Resources.resources
+D:\GitHub\Engineering_Csharp\ch09\Circle\obj\Debug\Circle.csproj.GenerateResource.cache
+D:\GitHub\Engineering_Csharp\ch09\Circle\obj\Debug\Circle.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch09\Circle\obj\Debug\Circle.exe
+D:\GitHub\Engineering_Csharp\ch09\Circle\obj\Debug\Circle.pdb

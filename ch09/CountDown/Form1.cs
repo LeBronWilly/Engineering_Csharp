@@ -16,7 +16,7 @@ namespace CountDown
         {
             InitializeComponent();
         }
-        double sec = 10;   //欄位成員變數sec記錄秒數，各函式彼此共用
+        double sec = 2;   //欄位成員變數sec記錄秒數，各函式彼此共用
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -29,8 +29,17 @@ namespace CountDown
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            sec = int.Parse(txtSec.Text);   //讀取txtSec的秒數
-            tmrCount.Enabled = true;        //啟動計時器
+            if (double.TryParse(txtSec.Text, out sec))
+            {
+                txtSec.Enabled = false;
+                sec = double.Parse(txtSec.Text);   //讀取txtSec的秒數
+                tmrCount.Enabled = true;        //啟動計時器
+            }
+            else
+            {
+                MessageBox.Show("格式錯誤喇乾");
+            }
+
         }
 
         private void tmrCount_Tick(object sender, EventArgs e)
@@ -41,7 +50,24 @@ namespace CountDown
             }
             else
             {
+                lblSec.Text = string.Format("{0:000.0 秒}", 0.0); //確保結束為0
+                //lblSec.Text = "000.0 秒"; //確保結束為0
                 tmrCount.Stop(); //關閉計時器
+                //tmrCount.Enabled = false; //關閉計時器
+                txtSec.Enabled = true;
+            }
+        }
+
+        private void txtSec_TextChanged(object sender, EventArgs e)
+        {
+            if (double.TryParse(txtSec.Text, out sec))
+            {
+                lblSec.Text = string.Format("{0:000.0 秒}", sec);
+            }
+            else
+            {
+
+                lblSec.Text = string.Format("{0:000.0 秒}", 0.0);
             }
         }
     }

@@ -22,6 +22,7 @@ namespace BubbleTea
             lblPrice.Text = "";         //預設總價訊息為空字串
             rdbTea1.Checked = true;     //預設為紅茶
             rdbSizeL.Checked = true;    //預設為大杯
+            textBox1.Text = "1";
         }
 
         private void btnOk_Click(object sender, EventArgs e)
@@ -35,26 +36,69 @@ namespace BubbleTea
             }
             else
             {
-                msg = "大杯"; price = 35; //設大杯訊息和總價
+                msg = "大杯";
+                price = 35; //設大杯訊息和總價
             }
+
+
             if (rdbTea1.Checked == true)//若選rdbTea1
                 msg += rdbTea1.Text;    //訊息加rdbTea1文字
             else if (rdbTea2.Checked == true)   //若選rdbTea2
                 msg += rdbTea2.Text;    //訊息加rdbTea2文字
             else
+            {
                 msg += rdbTea3.Text;    //否則訊息加rdbTea3文字
+                price += 5; //奶茶比紅茶跟綠茶貴5元
+            }
+
+
+
             if (chk1.Checked == true)
                 msg += chk1.Text;       //若勾選chk1就訊息加chk1文字
+
             if (chk2.Checked == true)   //若勾選chk2
             {
                 msg += chk2.Text;       //訊息加chk2文字
                 price += 2;             //總價加2
             }
+
             if (chk3.Checked == true)   //若勾選chkAdd3
             {
-                msg += chk3.Text; price -= 5;  //總價減5
+                msg += $"({chk3.Text})";
+                price -= 5;  //總價減5
             }
-            lblPrice.Text = $"{msg} {price} 元";//顯示訊息和總價
+
+            int n;
+            if (int.TryParse(textBox1.Text, out n) && n>0)
+            {
+                price *= n;
+                lblPrice.Text = $"{n}杯{msg}：{price}元"; //顯示訊息和總價
+            }
+            else if (textBox1.Text=="") 
+            {
+                MessageBox.Show("請輸入杯數謝謝！");
+            }
+            else
+            {
+                MessageBox.Show("數值錯誤喇乾！");
+            }
+
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
