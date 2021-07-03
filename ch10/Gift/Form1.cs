@@ -37,7 +37,7 @@ namespace Gift
 
         private void lstGift_SelectedIndexChanged(object sender, EventArgs e)
         {
-            picGift.Load(lstGift.SelectedItem+".jpg");
+            picGift.Load(lstGift.SelectedItem + ".jpg");
         }
     }
 }

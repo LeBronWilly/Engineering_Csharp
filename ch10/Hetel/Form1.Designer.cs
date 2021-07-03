@@ -41,9 +41,10 @@
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(192, 223);
+            this.btnOK.Location = new System.Drawing.Point(433, 380);
+            this.btnOK.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(75, 23);
+            this.btnOK.Size = new System.Drawing.Size(100, 29);
             this.btnOK.TabIndex = 15;
             this.btnOK.Text = "4. 確定";
             this.btnOK.UseVisualStyleBackColor = true;
@@ -51,33 +52,41 @@
             // 
             // lblMsg
             // 
-            this.lblMsg.Location = new System.Drawing.Point(15, 147);
+            this.lblMsg.Location = new System.Drawing.Point(194, 286);
+            this.lblMsg.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMsg.Name = "lblMsg";
-            this.lblMsg.Size = new System.Drawing.Size(167, 92);
+            this.lblMsg.Size = new System.Drawing.Size(223, 115);
             this.lblMsg.TabIndex = 14;
             this.lblMsg.Text = "label4";
             // 
             // cboRoom
             // 
             this.cboRoom.FormattingEnabled = true;
-            this.cboRoom.Location = new System.Drawing.Point(17, 109);
+            this.cboRoom.Location = new System.Drawing.Point(197, 238);
+            this.cboRoom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboRoom.Name = "cboRoom";
-            this.cboRoom.Size = new System.Drawing.Size(165, 20);
+            this.cboRoom.Size = new System.Drawing.Size(219, 23);
             this.cboRoom.TabIndex = 13;
             this.cboRoom.SelectedIndexChanged += new System.EventHandler(this.cboRoom_SelectedIndexChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(15, 94);
+            this.label3.Location = new System.Drawing.Point(194, 220);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 12);
+            this.label3.Size = new System.Drawing.Size(112, 15);
             this.label3.TabIndex = 12;
             this.label3.Text = "2. 請選擇房型：";
             // 
             // mcnDate
             // 
-            this.mcnDate.Location = new System.Drawing.Point(192, 58);
+            this.mcnDate.AnnuallyBoldedDates = new System.DateTime[] {
+        new System.DateTime(2021, 6, 13, 0, 0, 0, 0)};
+            this.mcnDate.BoldedDates = new System.DateTime[] {
+        new System.DateTime(2021, 7, 12, 0, 0, 0, 0)};
+            this.mcnDate.Location = new System.Drawing.Point(433, 173);
+            this.mcnDate.Margin = new System.Windows.Forms.Padding(12, 11, 12, 11);
             this.mcnDate.Name = "mcnDate";
             this.mcnDate.TabIndex = 11;
             this.mcnDate.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.mcnDate_DateChanged);
@@ -85,9 +94,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(190, 37);
+            this.label2.Location = new System.Drawing.Point(430, 147);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(113, 12);
+            this.label2.Size = new System.Drawing.Size(142, 15);
             this.label2.TabIndex = 10;
             this.label2.Text = "3. 請選擇入住期間：";
             // 
@@ -95,19 +105,21 @@
             // 
             this.dtpBD.CustomFormat = "M月d日";
             this.dtpBD.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpBD.Location = new System.Drawing.Point(13, 58);
+            this.dtpBD.Location = new System.Drawing.Point(194, 173);
+            this.dtpBD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dtpBD.Name = "dtpBD";
             this.dtpBD.ShowUpDown = true;
-            this.dtpBD.Size = new System.Drawing.Size(139, 22);
+            this.dtpBD.Size = new System.Drawing.Size(184, 25);
             this.dtpBD.TabIndex = 9;
             this.dtpBD.ValueChanged += new System.EventHandler(this.dtpBD_ValueChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 37);
+            this.label1.Location = new System.Drawing.Point(194, 147);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 12);
+            this.label1.Size = new System.Drawing.Size(112, 15);
             this.label1.TabIndex = 8;
             this.label1.Text = "1. 請輸入生日：";
             // 
@@ -115,17 +127,18 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("新細明體", 14F);
-            this.label4.Location = new System.Drawing.Point(108, 9);
+            this.label4.Location = new System.Drawing.Point(317, 97);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(161, 19);
+            this.label4.Size = new System.Drawing.Size(202, 24);
             this.label4.TabIndex = 16;
             this.label4.Text = "快樂旅館訂房系統";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(424, 251);
+            this.ClientSize = new System.Drawing.Size(895, 529);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.lblMsg);
@@ -135,6 +148,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dtpBD);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

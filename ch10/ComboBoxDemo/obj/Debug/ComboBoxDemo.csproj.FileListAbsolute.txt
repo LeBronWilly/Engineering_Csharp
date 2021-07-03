@@ -7,3 +7,13 @@ D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\ComboBoxDemo\obj\Debu
 D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\ComboBoxDemo\obj\Debug\ComboBoxDemo.csproj.GenerateResource.cache
 D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\ComboBoxDemo\obj\Debug\ComboBoxDemo.exe
 D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\ComboBoxDemo\obj\Debug\ComboBoxDemo.pdb
+D:\GitHub\Engineering_Csharp\ch10\ComboBoxDemo\bin\Debug\ComboBoxDemo.exe.config
+D:\GitHub\Engineering_Csharp\ch10\ComboBoxDemo\bin\Debug\ComboBoxDemo.exe
+D:\GitHub\Engineering_Csharp\ch10\ComboBoxDemo\bin\Debug\ComboBoxDemo.pdb
+D:\GitHub\Engineering_Csharp\ch10\ComboBoxDemo\obj\Debug\ComboBoxDemo.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_Csharp\ch10\ComboBoxDemo\obj\Debug\ComboBoxDemo.Form1.resources
+D:\GitHub\Engineering_Csharp\ch10\ComboBoxDemo\obj\Debug\ComboBoxDemo.Properties.Resources.resources
+D:\GitHub\Engineering_Csharp\ch10\ComboBoxDemo\obj\Debug\ComboBoxDemo.csproj.GenerateResource.cache
+D:\GitHub\Engineering_Csharp\ch10\ComboBoxDemo\obj\Debug\ComboBoxDemo.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch10\ComboBoxDemo\obj\Debug\ComboBoxDemo.exe
+D:\GitHub\Engineering_Csharp\ch10\ComboBoxDemo\obj\Debug\ComboBoxDemo.pdb

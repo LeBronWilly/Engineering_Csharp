@@ -22,5 +22,15 @@ namespace ComboBoxDemo
             if (!comboBox1.Items.Contains(comboBox1.Text))
                 comboBox1.Items.Insert(0, comboBox1.Text);
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            comboBox1.DropDownStyle = ComboBoxStyle.Simple;
+        }
     }
 }

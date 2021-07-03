@@ -39,46 +39,53 @@
             // 
             // picGift
             // 
-            this.picGift.Location = new System.Drawing.Point(154, 71);
+            this.picGift.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.picGift.Location = new System.Drawing.Point(438, 136);
+            this.picGift.Margin = new System.Windows.Forms.Padding(4);
             this.picGift.Name = "picGift";
-            this.picGift.Size = new System.Drawing.Size(140, 140);
+            this.picGift.Size = new System.Drawing.Size(231, 217);
+            this.picGift.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picGift.TabIndex = 11;
             this.picGift.TabStop = false;
             // 
             // lstGift
             // 
             this.lstGift.FormattingEnabled = true;
-            this.lstGift.ItemHeight = 12;
-            this.lstGift.Location = new System.Drawing.Point(18, 123);
+            this.lstGift.ItemHeight = 15;
+            this.lstGift.Location = new System.Drawing.Point(215, 220);
+            this.lstGift.Margin = new System.Windows.Forms.Padding(4);
             this.lstGift.Name = "lstGift";
-            this.lstGift.Size = new System.Drawing.Size(120, 88);
+            this.lstGift.Size = new System.Drawing.Size(189, 124);
             this.lstGift.TabIndex = 10;
             this.lstGift.SelectedIndexChanged += new System.EventHandler(this.lstGift_SelectedIndexChanged);
             // 
             // cboArea
             // 
             this.cboArea.FormattingEnabled = true;
-            this.cboArea.Location = new System.Drawing.Point(18, 71);
+            this.cboArea.Location = new System.Drawing.Point(215, 155);
+            this.cboArea.Margin = new System.Windows.Forms.Padding(4);
             this.cboArea.Name = "cboArea";
-            this.cboArea.Size = new System.Drawing.Size(121, 20);
+            this.cboArea.Size = new System.Drawing.Size(190, 23);
             this.cboArea.TabIndex = 9;
             this.cboArea.SelectedIndexChanged += new System.EventHandler(this.cboArea_SelectedIndexChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(16, 108);
+            this.label3.Location = new System.Drawing.Point(212, 201);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 12);
+            this.label3.Size = new System.Drawing.Size(67, 15);
             this.label3.TabIndex = 8;
             this.label3.Text = "伴手禮：";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 56);
+            this.label2.Location = new System.Drawing.Point(212, 136);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 12);
+            this.label2.Size = new System.Drawing.Size(52, 15);
             this.label2.TabIndex = 7;
             this.label2.Text = "地區：";
             // 
@@ -86,23 +93,25 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("新細明體", 20F);
-            this.label1.Location = new System.Drawing.Point(76, 17);
+            this.label1.Location = new System.Drawing.Point(292, 87);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(147, 27);
+            this.label1.Size = new System.Drawing.Size(185, 34);
             this.label1.TabIndex = 6;
             this.label1.Text = "台灣伴手禮";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(311, 229);
+            this.ClientSize = new System.Drawing.Size(885, 462);
             this.Controls.Add(this.picGift);
             this.Controls.Add(this.lstGift);
             this.Controls.Add(this.cboArea);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

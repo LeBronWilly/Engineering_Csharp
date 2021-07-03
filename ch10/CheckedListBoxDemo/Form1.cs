@@ -25,7 +25,20 @@ namespace CheckedListBoxDemo
                 if (checkedListBox1.GetItemChecked(i)) //判斷第i個項目是否被勾選
                     msg += $"{checkedListBox1.Items[i]} ,";
             }
-            MessageBox.Show(msg, "選擇水果");
+            if (msg == "")
+            {
+                MessageBox.Show("你沒選擇水果", "你在幹嘛喇");
+            }
+            else
+            {
+                MessageBox.Show(msg, "選擇水果");
+            }
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            checkedListBox1.CheckOnClick = true;
         }
     }
 }

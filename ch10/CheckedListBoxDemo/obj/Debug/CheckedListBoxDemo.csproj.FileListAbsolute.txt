@@ -6,3 +6,13 @@ D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\CheckedListBoxDemo\ob
 D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\CheckedListBoxDemo\obj\Debug\CheckedListBoxDemo.csproj.GenerateResource.cache
 D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\CheckedListBoxDemo\obj\Debug\CheckedListBoxDemo.exe
 D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\CheckedListBoxDemo\obj\Debug\CheckedListBoxDemo.pdb
+D:\GitHub\Engineering_Csharp\ch10\CheckedListBoxDemo\bin\Debug\CheckedListBoxDemo.exe.config
+D:\GitHub\Engineering_Csharp\ch10\CheckedListBoxDemo\bin\Debug\CheckedListBoxDemo.exe
+D:\GitHub\Engineering_Csharp\ch10\CheckedListBoxDemo\bin\Debug\CheckedListBoxDemo.pdb
+D:\GitHub\Engineering_Csharp\ch10\CheckedListBoxDemo\obj\Debug\CheckedListBoxDemo.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_Csharp\ch10\CheckedListBoxDemo\obj\Debug\CheckedListBoxDemo.Form1.resources
+D:\GitHub\Engineering_Csharp\ch10\CheckedListBoxDemo\obj\Debug\CheckedListBoxDemo.Properties.Resources.resources
+D:\GitHub\Engineering_Csharp\ch10\CheckedListBoxDemo\obj\Debug\CheckedListBoxDemo.csproj.GenerateResource.cache
+D:\GitHub\Engineering_Csharp\ch10\CheckedListBoxDemo\obj\Debug\CheckedListBoxDemo.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch10\CheckedListBoxDemo\obj\Debug\CheckedListBoxDemo.exe
+D:\GitHub\Engineering_Csharp\ch10\CheckedListBoxDemo\obj\Debug\CheckedListBoxDemo.pdb

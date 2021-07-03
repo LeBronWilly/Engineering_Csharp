@@ -7,3 +7,13 @@ D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Hetel\obj\Debug\Hetel
 D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Hetel\obj\Debug\Hetel.csproj.GenerateResource.cache
 D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Hetel\obj\Debug\Hetel.exe
 D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Hetel\obj\Debug\Hetel.pdb
+D:\GitHub\Engineering_Csharp\ch10\Hetel\bin\Debug\Hetel.exe.config
+D:\GitHub\Engineering_Csharp\ch10\Hetel\bin\Debug\Hetel.exe
+D:\GitHub\Engineering_Csharp\ch10\Hetel\bin\Debug\Hetel.pdb
+D:\GitHub\Engineering_Csharp\ch10\Hetel\obj\Debug\Hetel.Form1.resources
+D:\GitHub\Engineering_Csharp\ch10\Hetel\obj\Debug\Hetel.Properties.Resources.resources
+D:\GitHub\Engineering_Csharp\ch10\Hetel\obj\Debug\Hetel.csproj.GenerateResource.cache
+D:\GitHub\Engineering_Csharp\ch10\Hetel\obj\Debug\Hetel.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch10\Hetel\obj\Debug\Hetel.exe
+D:\GitHub\Engineering_Csharp\ch10\Hetel\obj\Debug\Hetel.pdb
+D:\GitHub\Engineering_Csharp\ch10\Hetel\obj\Debug\Hetel.csproj.AssemblyReference.cache
