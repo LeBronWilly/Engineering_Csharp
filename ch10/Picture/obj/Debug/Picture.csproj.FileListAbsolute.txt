@@ -7,3 +7,13 @@ D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Picture\obj\Debug\Pic
 D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Picture\obj\Debug\Picture.csproj.GenerateResource.cache
 D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Picture\obj\Debug\Picture.exe
 D:\08從零開始\VisualC#2019從零開始\ch10\ch10範例\Picture\obj\Debug\Picture.pdb
+D:\GitHub\Engineering_Csharp\ch10\Picture\bin\Debug\Picture.exe.config
+D:\GitHub\Engineering_Csharp\ch10\Picture\bin\Debug\Picture.exe
+D:\GitHub\Engineering_Csharp\ch10\Picture\bin\Debug\Picture.pdb
+D:\GitHub\Engineering_Csharp\ch10\Picture\obj\Debug\Picture.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_Csharp\ch10\Picture\obj\Debug\Picture.Form1.resources
+D:\GitHub\Engineering_Csharp\ch10\Picture\obj\Debug\Picture.Properties.Resources.resources
+D:\GitHub\Engineering_Csharp\ch10\Picture\obj\Debug\Picture.csproj.GenerateResource.cache
+D:\GitHub\Engineering_Csharp\ch10\Picture\obj\Debug\Picture.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch10\Picture\obj\Debug\Picture.exe
+D:\GitHub\Engineering_Csharp\ch10\Picture\obj\Debug\Picture.pdb

@@ -29,11 +29,14 @@ namespace NoteBook
             switch (cboForeColor.SelectedIndex)
             {
                 case 0:
-                    rtbText.SelectionColor = Color.Black; break;
+                    rtbText.SelectionColor = Color.Black;
+                    break;
                 case 1:
-                    rtbText.SelectionColor = Color.Red; break;
+                    rtbText.SelectionColor = Color.Red;
+                    break;
                 case 2:
-                    rtbText.SelectionColor = Color.Blue; break;
+                    rtbText.SelectionColor = Color.Blue;
+                    break;
             }
         }
 
@@ -53,11 +56,13 @@ namespace NoteBook
         private void cboSize_SelectedIndexChanged(object sender, EventArgs e)
         {   //選取cboSize下拉式清單時重設字型大小
             rtbText.SelectionFont = new Font(cboFont.Text, Convert.ToInt32(cboSize.Text));
+            //rtbText.SelectionFont = new Font(cboFont.Text, int.Parse(cboSize.Text));
         }
 
         private void cboFont_SelectedIndexChanged(object sender, EventArgs e)
         {  //選取cboFont下拉式清單時重設字型名稱
-            rtbText.SelectionFont = new Font(cboFont.Text, Convert.ToInt32(cboSize.Text));
+            rtbText.SelectionFont = new Font(cboFont.Text, int.Parse(cboSize.Text));
+            //rtbText.SelectionFont = new Font(cboFont.Text, Convert.ToInt32(cboSize.Text));
         }
 
         private void btnOpen_Click(object sender, EventArgs e)
@@ -75,6 +80,21 @@ namespace NoteBook
         private void btnClear_Click(object sender, EventArgs e)
         {   //按btnClear鈕時將選取的文字清除
             rtbText.SelectedText = "";  //清除選取的文字
+        }
+
+        private void rtbText_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rtbText_LinkClicked(object sender, LinkClickedEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            rtbText.Text = "";  //清除所有文字
         }
     }
 }

@@ -40,54 +40,60 @@
             // lblNum
             // 
             this.lblNum.AutoSize = true;
-            this.lblNum.Location = new System.Drawing.Point(254, 249);
+            this.lblNum.Location = new System.Drawing.Point(654, 447);
+            this.lblNum.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNum.Name = "lblNum";
-            this.lblNum.Size = new System.Drawing.Size(33, 12);
+            this.lblNum.Size = new System.Drawing.Size(41, 15);
             this.lblNum.TabIndex = 9;
             this.lblNum.Text = "label1";
             // 
             // tkbNum
             // 
-            this.tkbNum.Location = new System.Drawing.Point(23, 249);
+            this.tkbNum.Location = new System.Drawing.Point(36, 447);
+            this.tkbNum.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tkbNum.Name = "tkbNum";
-            this.tkbNum.Size = new System.Drawing.Size(222, 45);
+            this.tkbNum.Size = new System.Drawing.Size(567, 56);
             this.tkbNum.TabIndex = 8;
             this.tkbNum.ValueChanged += new System.EventHandler(this.tkbNum_ValueChanged);
             // 
             // vsbHeight
             // 
-            this.vsbHeight.Location = new System.Drawing.Point(296, 7);
+            this.vsbHeight.Location = new System.Drawing.Point(763, 32);
             this.vsbHeight.Name = "vsbHeight";
-            this.vsbHeight.Size = new System.Drawing.Size(18, 203);
+            this.vsbHeight.Size = new System.Drawing.Size(18, 355);
+            this.vsbHeight.SmallChange = 5;
             this.vsbHeight.TabIndex = 7;
             this.vsbHeight.Scroll += new System.Windows.Forms.ScrollEventHandler(this.vsbHeight_Scroll);
             // 
             // hsbWidth
             // 
-            this.hsbWidth.Location = new System.Drawing.Point(23, 219);
+            this.hsbWidth.Location = new System.Drawing.Point(36, 410);
             this.hsbWidth.Name = "hsbWidth";
-            this.hsbWidth.Size = new System.Drawing.Size(264, 17);
+            this.hsbWidth.Size = new System.Drawing.Size(711, 17);
+            this.hsbWidth.SmallChange = 5;
             this.hsbWidth.TabIndex = 6;
             this.hsbWidth.Scroll += new System.Windows.Forms.ScrollEventHandler(this.hsbWidth_Scroll);
             // 
             // picShow
             // 
-            this.picShow.Location = new System.Drawing.Point(23, 22);
+            this.picShow.Location = new System.Drawing.Point(36, 32);
+            this.picShow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picShow.Name = "picShow";
-            this.picShow.Size = new System.Drawing.Size(180, 144);
+            this.picShow.Size = new System.Drawing.Size(262, 199);
             this.picShow.TabIndex = 5;
             this.picShow.TabStop = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(334, 291);
+            this.ClientSize = new System.Drawing.Size(831, 512);
             this.Controls.Add(this.lblNum);
             this.Controls.Add(this.tkbNum);
             this.Controls.Add(this.vsbHeight);
             this.Controls.Add(this.hsbWidth);
             this.Controls.Add(this.picShow);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

@@ -21,13 +21,19 @@ namespace Picture
         {//訂定圖片會隨圖片方塊大小調整
             picShow.SizeMode = PictureBoxSizeMode.StretchImage;
             hsbWidth.Minimum = 10;  //最小值為10
-            hsbWidth.Maximum = 260; //最大值為260
-            hsbWidth.Value = 100;   //設定現值為100
-            picShow.Width = hsbWidth.Value;    //設picShow的寬度等於hsbWidth值
+            hsbWidth.Maximum = 500; //最大值為260
+            //hsbWidth.Value = 100;   //設定現值為100
+            //picShow.Width = hsbWidth.Value;    //設picShow的寬度等於hsbWidth值
+            picShow.Width = hsbWidth.Value = 100;
+
+
             vsbHeight.Minimum = 10;  //最小值為10
-            vsbHeight.Maximum = 200; //最大值為200
-            vsbHeight.Value = 80;    //設定現值為80
-            picShow.Height = vsbHeight.Value;  //設picShow的高度等於vsbHeight值
+            vsbHeight.Maximum = 300; //最大值為200
+            //vsbHeight.Value = 80;    //設定現值為80
+            //picShow.Height = vsbHeight.Value;  //設picShow的高度等於vsbHeight值
+            picShow.Height = vsbHeight.Value = 80;
+
+
             tkbNum.Minimum = 0; //最小值為0
             tkbNum.Maximum = 5; //最大值為5
             tkbNum.Value = 2;   //設定現值為2
@@ -44,8 +50,8 @@ namespace Picture
 
         private void tkbNum_ValueChanged(object sender, EventArgs e)
         {   //在tkbNum的ValueChanged事件中設定picShow顯示的圖檔
-            picShow.Load(pic[tkbNum.Value]+".bmp");//以tkbNum的值當陣列的註標值
-            lblNum.Text = $"第 {tkbNum.Value + 1} 張圖片";
+            picShow.Load(pic[tkbNum.Value] + ".bmp");//以tkbNum的值當陣列的註標值
+            lblNum.Text = $"第 {tkbNum.Value + 1} 張：\n{pic[tkbNum.Value]}圖片";
         }
     }
 }
