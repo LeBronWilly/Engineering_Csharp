@@ -7,3 +7,13 @@ D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Piano\obj\Debug\Piano
 D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Piano\obj\Debug\Piano.csproj.GenerateResource.cache
 D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Piano\obj\Debug\Piano.exe
 D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Piano\obj\Debug\Piano.pdb
+D:\GitHub\Engineering_Csharp\ch11\Piano\bin\Debug\Piano.exe.config
+D:\GitHub\Engineering_Csharp\ch11\Piano\bin\Debug\Piano.exe
+D:\GitHub\Engineering_Csharp\ch11\Piano\bin\Debug\Piano.pdb
+D:\GitHub\Engineering_Csharp\ch11\Piano\obj\Debug\Piano.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_Csharp\ch11\Piano\obj\Debug\Piano.Form1.resources
+D:\GitHub\Engineering_Csharp\ch11\Piano\obj\Debug\Piano.Properties.Resources.resources
+D:\GitHub\Engineering_Csharp\ch11\Piano\obj\Debug\Piano.csproj.GenerateResource.cache
+D:\GitHub\Engineering_Csharp\ch11\Piano\obj\Debug\Piano.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch11\Piano\obj\Debug\Piano.exe
+D:\GitHub\Engineering_Csharp\ch11\Piano\obj\Debug\Piano.pdb

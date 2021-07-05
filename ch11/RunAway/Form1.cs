@@ -37,7 +37,7 @@ namespace RunAway
                 case Keys.Right: //按向右鍵
                     picMouse.Image = imgMouse.Images[2];    //改變picMouse的圖檔
                     //若picMouse的Left < 表單工作寬度減圖檔寬度
-                    if (picMouse.Left < this.ClientSize.Width - 30)
+                    if (picMouse.Left < this.ClientSize.Width - 32)
                         picMouse.Left += 5; //圖檔右移
                     break;
             }
@@ -61,7 +61,11 @@ namespace RunAway
                     if (tmrBall.Interval > 10)  //若tmrBall的Interval > 10
                         tmrBall.Interval -= 5;  //tmrBall的Interval減5
                     picBall.Top = -10;          //picBall位置移動到最上方
-                    picBall.Left = picMouse.Left;
+                    if (picMouse.Left > this.ClientSize.Width - 32)
+                    {
+                        picMouse.Left = this.ClientSize.Width - 32;
+                    }
+                    picBall.Left = picMouse.Left + 6;
                 }
             }
         }

@@ -40,18 +40,22 @@
             // 
             // picBall
             // 
+            this.picBall.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.picBall.Image = global::RunAway.Properties.Resources.ball;
-            this.picBall.Location = new System.Drawing.Point(126, 3);
+            this.picBall.Location = new System.Drawing.Point(168, 4);
+            this.picBall.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picBall.Name = "picBall";
-            this.picBall.Size = new System.Drawing.Size(20, 20);
+            this.picBall.Size = new System.Drawing.Size(27, 25);
             this.picBall.TabIndex = 3;
             this.picBall.TabStop = false;
             // 
             // picMouse
             // 
-            this.picMouse.Location = new System.Drawing.Point(126, 225);
+            this.picMouse.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.picMouse.Location = new System.Drawing.Point(168, 281);
+            this.picMouse.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.picMouse.Name = "picMouse";
-            this.picMouse.Size = new System.Drawing.Size(32, 32);
+            this.picMouse.Size = new System.Drawing.Size(43, 40);
             this.picMouse.TabIndex = 2;
             this.picMouse.TabStop = false;
             // 
@@ -69,11 +73,12 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(379, 326);
             this.Controls.Add(this.picBall);
             this.Controls.Add(this.picMouse);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

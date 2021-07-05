@@ -1,0 +1,10 @@
+D:\GitHub\Engineering_Csharp\ch11\RunAway\bin\Debug\RunAway.exe.config
+D:\GitHub\Engineering_Csharp\ch11\RunAway\bin\Debug\RunAway.exe
+D:\GitHub\Engineering_Csharp\ch11\RunAway\bin\Debug\RunAway.pdb
+D:\GitHub\Engineering_Csharp\ch11\RunAway\obj\Debug\RunAway.Form1.resources
+D:\GitHub\Engineering_Csharp\ch11\RunAway\obj\Debug\RunAway.Properties.Resources.resources
+D:\GitHub\Engineering_Csharp\ch11\RunAway\obj\Debug\RunAway.csproj.GenerateResource.cache
+D:\GitHub\Engineering_Csharp\ch11\RunAway\obj\Debug\RunAway.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch11\RunAway\obj\Debug\RunAway.exe
+D:\GitHub\Engineering_Csharp\ch11\RunAway\obj\Debug\RunAway.pdb
+D:\GitHub\Engineering_Csharp\ch11\RunAway\obj\Debug\RunAway.csproj.AssemblyReference.cache

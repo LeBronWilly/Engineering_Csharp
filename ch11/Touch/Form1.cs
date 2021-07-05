@@ -27,7 +27,7 @@ namespace Touch
         private void picTouch_DoubleClick(object sender, EventArgs e)
         {
             picTouch.Size = new Size(116, 159);     //恢復預設大小
-            picTouch.Location = new Point(80, 40);  //恢復預設位置
+            picTouch.Location = new Point(160, 80);  //恢復預設位置
         }
 
         private void picTouch_Zoom(object sender, MouseEventArgs e)
@@ -46,7 +46,8 @@ namespace Touch
         private void picTouch_MouseDown(object sender, MouseEventArgs e)
         {
             drag = true;        //設為是拖曳
-            sX = e.X; sY = e.Y;  //紀錄座標值
+            sX = e.X;
+            sY = e.Y;  //紀錄座標值
         }
 
         private void picTouch_MouseMove(object sender, MouseEventArgs e)
@@ -56,6 +57,11 @@ namespace Touch
                 picTouch.Left += (e.X - sX);    //改變X座標
                 picTouch.Top += (e.Y - sY);     //改變Y座標
             }
+        }
+
+        private void Form1_MouseHover(object sender, EventArgs e)
+        {
+
         }
 
         private void picTouch_MouseUp(object sender, MouseEventArgs e)

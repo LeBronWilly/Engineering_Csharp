@@ -7,3 +7,13 @@ D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Touch\obj\Debug\Touch
 D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Touch\obj\Debug\Touch.csproj.GenerateResource.cache
 D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Touch\obj\Debug\Touch.exe
 D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Touch\obj\Debug\Touch.pdb
+D:\GitHub\Engineering_Csharp\ch11\Touch\bin\Debug\Touch.exe.config
+D:\GitHub\Engineering_Csharp\ch11\Touch\bin\Debug\Touch.exe
+D:\GitHub\Engineering_Csharp\ch11\Touch\bin\Debug\Touch.pdb
+D:\GitHub\Engineering_Csharp\ch11\Touch\obj\Debug\Touch.Form1.resources
+D:\GitHub\Engineering_Csharp\ch11\Touch\obj\Debug\Touch.Properties.Resources.resources
+D:\GitHub\Engineering_Csharp\ch11\Touch\obj\Debug\Touch.csproj.GenerateResource.cache
+D:\GitHub\Engineering_Csharp\ch11\Touch\obj\Debug\Touch.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch11\Touch\obj\Debug\Touch.exe
+D:\GitHub\Engineering_Csharp\ch11\Touch\obj\Debug\Touch.pdb
+D:\GitHub\Engineering_Csharp\ch11\Touch\obj\Debug\Touch.csproj.AssemblyReference.cache

@@ -20,7 +20,7 @@ namespace Drag
         int x_down, y_down; //記錄滑鼠按下時的座標值
         private void Form1_Load(object sender, EventArgs e)
         {
-            btnDrag.Text = "試試看";
+            btnDrag.Text = "再來R";
         }
 
         private void btnDrag_MouseEnter(object sender, EventArgs e)
@@ -37,7 +37,10 @@ namespace Drag
         private void btnDrag_MouseDown(object sender, MouseEventArgs e)
         {   //在按鈕中按下滑鼠左鍵時
             drag = true;    //設按鈕可以拖曳
-            x_down = e.X; y_down = e.Y;//記錄滑鼠按下時的座標值
+            x_down = e.X;
+            y_down = e.Y;//記錄滑鼠按下時的座標值
+            label2.Text = $"x_down = {x_down}, y_down = {y_down}\n" +
+                    $"e.X = {e.X}, e.Y = {e.Y}\n";
         }
 
         private void btnDrag_MouseMove(object sender, MouseEventArgs e)
@@ -45,8 +48,13 @@ namespace Drag
             if (drag)  //若drag值為true
             {
                 btnDrag.Text = "拖曳中...";   //改變按鈕文字
+                label3.Text = $"x_down = {x_down}, y_down = {y_down}\n" +
+                    $"e.X = {e.X}, e.Y = {e.Y}\n";
                 btnDrag.Left += e.X - x_down;   //改變按鈕的X座標
-                btnDrag.Top += e.Y - y_down;   //改變按鈕的Y座標
+                btnDrag.Top = btnDrag.Top + (e.Y - y_down);   //改變按鈕的Y座標
+                label1.Text = $"x_down = {x_down}, y_down = {y_down}\n" +
+                    $"e.X = {e.X}, e.Y = {e.Y}\n" +
+                    $"btnDrag.Left = {btnDrag.Left}, btnDrag.Top = {btnDrag.Top}";
             }
             else
             {

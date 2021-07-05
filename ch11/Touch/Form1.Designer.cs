@@ -35,9 +35,11 @@
             // picTouch
             // 
             this.picTouch.Image = global::Touch.Properties.Resources.hat;
-            this.picTouch.Location = new System.Drawing.Point(84, 51);
+            this.picTouch.Location = new System.Drawing.Point(328, 165);
+            this.picTouch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.picTouch.MinimumSize = new System.Drawing.Size(68, 93);
             this.picTouch.Name = "picTouch";
-            this.picTouch.Size = new System.Drawing.Size(116, 159);
+            this.picTouch.Size = new System.Drawing.Size(155, 199);
             this.picTouch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picTouch.TabIndex = 1;
             this.picTouch.TabStop = false;
@@ -48,13 +50,15 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(814, 541);
             this.Controls.Add(this.picTouch);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.MouseHover += new System.EventHandler(this.Form1_MouseHover);
             ((System.ComponentModel.ISupportInitialize)(this.picTouch)).EndInit();
             this.ResumeLayout(false);
 

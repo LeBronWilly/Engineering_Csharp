@@ -17,9 +17,11 @@ namespace Login
             InitializeComponent();
         }
 
+        char ch;    //設ch為輸入的字元
         private void txtID_KeyPress(object sender, KeyPressEventArgs e)
         {
-            char ch = e.KeyChar;    //設ch為輸入的字元
+            //char ch = e.KeyChar;    //設ch為輸入的字元
+            ch = e.KeyChar;    //設ch為輸入的字元
             if ((ch < 'a' || ch > 'z') && (ch != '\b')) //若ch不是小寫字母或退位鍵
             {
                 if ((byte)ch == 13) //若是Enter鍵
@@ -34,7 +36,8 @@ namespace Login
 
         private void txtPW_KeyPress(object sender, KeyPressEventArgs e)
         {
-            char ch = e.KeyChar;    //設ch為輸入的字元
+            //char ch = e.KeyChar;    //設ch為輸入的字元
+            ch = e.KeyChar;    //設ch為輸入的字元
             if ((ch < '0' || ch > '9') && (ch != '\b')) //若ch不是數字或退位鍵
             {
                 if ((byte)ch == 13) //若是Enter鍵
@@ -57,9 +60,15 @@ namespace Login
             else
             {
                 MessageBox.Show("帳號或是密碼不正確！", "注意", MessageBoxButtons.OK);
-                txtPW.Text = ""; txtID.Text = "";   //清空文字方塊內容
+                txtPW.Text = "";
+                txtID.Text = "";   //清空文字方塊內容
                 txtID.Focus();  //控制權跳到txtID
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

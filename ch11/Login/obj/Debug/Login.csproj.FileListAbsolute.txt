@@ -7,3 +7,13 @@ D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Login\obj\Debug\Login
 D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Login\obj\Debug\Login.csproj.GenerateResource.cache
 D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Login\obj\Debug\Login.exe
 D:\08從零開始\VisualC#2019從零開始\ch11\ch11範例\Login\obj\Debug\Login.pdb
+D:\GitHub\Engineering_Csharp\ch11\Login\bin\Debug\Login.exe.config
+D:\GitHub\Engineering_Csharp\ch11\Login\bin\Debug\Login.exe
+D:\GitHub\Engineering_Csharp\ch11\Login\bin\Debug\Login.pdb
+D:\GitHub\Engineering_Csharp\ch11\Login\obj\Debug\Login.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_Csharp\ch11\Login\obj\Debug\Login.Form1.resources
+D:\GitHub\Engineering_Csharp\ch11\Login\obj\Debug\Login.Properties.Resources.resources
+D:\GitHub\Engineering_Csharp\ch11\Login\obj\Debug\Login.csproj.GenerateResource.cache
+D:\GitHub\Engineering_Csharp\ch11\Login\obj\Debug\Login.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch11\Login\obj\Debug\Login.exe
+D:\GitHub\Engineering_Csharp\ch11\Login\obj\Debug\Login.pdb

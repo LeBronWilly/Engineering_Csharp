@@ -21,8 +21,13 @@ namespace Piano
 
         private void Form1_Load(object sender, EventArgs e)
         {   //指定lbls控制項陣列的元素值
-            lbls[0] = lblDo; lbls[1] = lblRe; lbls[2] = lblMi; lbls[3] = lblFa;
-            lbls[4] = lblSol; lbls[5] = lblLa; lbls[6] = lblSi;
+            lbls[0] = lblDo;
+            lbls[1] = lblRe;
+            lbls[2] = lblMi;
+            lbls[3] = lblFa;
+            lbls[4] = lblSol;
+            lbls[5] = lblLa;
+            lbls[6] = lblSi;
             for (int i = 1; i < lbls.Length; i++) //使用for迴圈訂閱事件
                 lbls[i].Click += lblDo_Click;
         }
@@ -34,6 +39,11 @@ namespace Piano
             for (int i = 0; i < lbls.Length; i++) //使用for迴圈逐一檢查控制項陣列
                 if (lbl.Equals(lbls[i]))        //如果等於對應的標籤控制項
                     Console.Beep(freq[i], 500); //播放對應的音階
+        }
+
+        private void lblRe_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
