@@ -59,83 +59,88 @@
             // 
             // cmnuNoodle
             // 
+            this.cmnuNoodle.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.cmnuNoodle.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cmnuNoodle1,
             this.cmnuNoodle2});
             this.cmnuNoodle.Name = "cmnuNoodle";
-            this.cmnuNoodle.Size = new System.Drawing.Size(99, 48);
+            this.cmnuNoodle.Size = new System.Drawing.Size(115, 60);
             // 
             // cmnuNoodle1
             // 
             this.cmnuNoodle1.Name = "cmnuNoodle1";
-            this.cmnuNoodle1.Size = new System.Drawing.Size(98, 22);
+            this.cmnuNoodle1.Size = new System.Drawing.Size(114, 28);
             this.cmnuNoodle1.Text = "寬麵";
             this.cmnuNoodle1.Click += new System.EventHandler(this.cmnuNoodle1_Click);
             // 
             // cmnuNoodle2
             // 
             this.cmnuNoodle2.Name = "cmnuNoodle2";
-            this.cmnuNoodle2.Size = new System.Drawing.Size(98, 22);
+            this.cmnuNoodle2.Size = new System.Drawing.Size(114, 28);
             this.cmnuNoodle2.Text = "細麵";
             // 
             // cmnuBeef
             // 
+            this.cmnuBeef.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.cmnuBeef.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cmnuBeef1,
             this.cmnuBeef2,
             this.cmnuBeef3});
             this.cmnuBeef.Name = "cmnuBeef";
-            this.cmnuBeef.Size = new System.Drawing.Size(99, 70);
+            this.cmnuBeef.Size = new System.Drawing.Size(115, 88);
             // 
             // cmnuBeef1
             // 
             this.cmnuBeef1.Name = "cmnuBeef1";
-            this.cmnuBeef1.Size = new System.Drawing.Size(98, 22);
+            this.cmnuBeef1.Size = new System.Drawing.Size(114, 28);
             this.cmnuBeef1.Text = "清燉";
             this.cmnuBeef1.Click += new System.EventHandler(this.cmnuBeef1_Click);
             // 
             // cmnuBeef2
             // 
             this.cmnuBeef2.Name = "cmnuBeef2";
-            this.cmnuBeef2.Size = new System.Drawing.Size(98, 22);
+            this.cmnuBeef2.Size = new System.Drawing.Size(114, 28);
             this.cmnuBeef2.Text = "紅燒";
             // 
             // cmnuBeef3
             // 
             this.cmnuBeef3.Name = "cmnuBeef3";
-            this.cmnuBeef3.Size = new System.Drawing.Size(98, 22);
+            this.cmnuBeef3.Size = new System.Drawing.Size(114, 28);
             this.cmnuBeef3.Text = "招牌";
             // 
             // cmnuSide
             // 
+            this.cmnuSide.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.cmnuSide.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cmnuSide1,
             this.cmnuSide2,
             this.cmnuSide3});
             this.cmnuSide.Name = "cmnuSide";
-            this.cmnuSide.Size = new System.Drawing.Size(123, 70);
+            this.cmnuSide.Size = new System.Drawing.Size(149, 88);
             // 
             // cmnuSide1
             // 
             this.cmnuSide1.Name = "cmnuSide1";
-            this.cmnuSide1.Size = new System.Drawing.Size(122, 22);
+            this.cmnuSide1.Size = new System.Drawing.Size(148, 28);
             this.cmnuSide1.Text = "皮蛋豆腐";
             this.cmnuSide1.Click += new System.EventHandler(this.cmnuSide1_Click);
             // 
             // cmnuSide2
             // 
             this.cmnuSide2.Name = "cmnuSide2";
-            this.cmnuSide2.Size = new System.Drawing.Size(122, 22);
+            this.cmnuSide2.Size = new System.Drawing.Size(148, 28);
             this.cmnuSide2.Text = "小魚豆干";
             // 
             // cmnuSide3
             // 
             this.cmnuSide3.Name = "cmnuSide3";
-            this.cmnuSide3.Size = new System.Drawing.Size(122, 22);
+            this.cmnuSide3.Size = new System.Drawing.Size(148, 28);
             this.cmnuSide3.Text = "豬耳朵";
             // 
             // mnuMain
             // 
+            this.mnuMain.Font = new System.Drawing.Font("微軟正黑體", 9.6F, System.Drawing.FontStyle.Bold);
+            this.mnuMain.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.mnuMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuNoodle,
             this.mnuBeef,
@@ -143,94 +148,110 @@
             this.mnuExit});
             this.mnuMain.Location = new System.Drawing.Point(0, 0);
             this.mnuMain.Name = "mnuMain";
-            this.mnuMain.Size = new System.Drawing.Size(250, 24);
+            this.mnuMain.Size = new System.Drawing.Size(739, 30);
             this.mnuMain.TabIndex = 3;
             this.mnuMain.Text = "menuStrip1";
+            this.mnuMain.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.mnuMain_ItemClicked);
             // 
             // mnuNoodle
             // 
             this.mnuNoodle.Name = "mnuNoodle";
-            this.mnuNoodle.Size = new System.Drawing.Size(43, 20);
+            this.mnuNoodle.Size = new System.Drawing.Size(58, 26);
             this.mnuNoodle.Text = "麵條";
             // 
             // mnuBeef
             // 
             this.mnuBeef.Name = "mnuBeef";
-            this.mnuBeef.Size = new System.Drawing.Size(43, 20);
+            this.mnuBeef.Size = new System.Drawing.Size(58, 26);
             this.mnuBeef.Text = "口味";
             // 
             // mnuSide
             // 
             this.mnuSide.Name = "mnuSide";
-            this.mnuSide.Size = new System.Drawing.Size(43, 20);
+            this.mnuSide.Size = new System.Drawing.Size(58, 26);
             this.mnuSide.Text = "小菜";
             // 
             // mnuExit
             // 
             this.mnuExit.Name = "mnuExit";
-            this.mnuExit.Size = new System.Drawing.Size(43, 20);
-            this.mnuExit.Text = "結束";
+            this.mnuExit.Size = new System.Drawing.Size(58, 26);
+            this.mnuExit.Text = "結帳";
             this.mnuExit.Click += new System.EventHandler(this.mnuExit_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(10, 36);
+            this.label1.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label1.Location = new System.Drawing.Point(168, 101);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 12);
+            this.label1.Size = new System.Drawing.Size(72, 25);
             this.label1.TabIndex = 4;
             this.label1.Text = "麵條：";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(10, 65);
+            this.label2.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label2.Location = new System.Drawing.Point(168, 137);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 12);
+            this.label2.Size = new System.Drawing.Size(72, 25);
             this.label2.TabIndex = 5;
             this.label2.Text = "口味：";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(10, 94);
+            this.label3.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label3.Location = new System.Drawing.Point(168, 174);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 12);
+            this.label3.Size = new System.Drawing.Size(72, 25);
             this.label3.TabIndex = 6;
             this.label3.Text = "小菜：";
             // 
             // lblNoodle
             // 
             this.lblNoodle.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblNoodle.Location = new System.Drawing.Point(57, 36);
+            this.lblNoodle.ContextMenuStrip = this.cmnuNoodle;
+            this.lblNoodle.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lblNoodle.Location = new System.Drawing.Point(248, 101);
+            this.lblNoodle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNoodle.Name = "lblNoodle";
-            this.lblNoodle.Size = new System.Drawing.Size(177, 23);
+            this.lblNoodle.Size = new System.Drawing.Size(277, 29);
             this.lblNoodle.TabIndex = 7;
             this.lblNoodle.Text = "label4";
             // 
             // lblBeef
             // 
             this.lblBeef.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblBeef.Location = new System.Drawing.Point(57, 65);
+            this.lblBeef.ContextMenuStrip = this.cmnuBeef;
+            this.lblBeef.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lblBeef.Location = new System.Drawing.Point(248, 137);
+            this.lblBeef.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBeef.Name = "lblBeef";
-            this.lblBeef.Size = new System.Drawing.Size(177, 23);
+            this.lblBeef.Size = new System.Drawing.Size(277, 29);
             this.lblBeef.TabIndex = 7;
             this.lblBeef.Text = "label5";
             // 
             // lblSide
             // 
             this.lblSide.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblSide.Location = new System.Drawing.Point(57, 94);
+            this.lblSide.ContextMenuStrip = this.cmnuSide;
+            this.lblSide.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.lblSide.Location = new System.Drawing.Point(248, 174);
+            this.lblSide.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSide.Name = "lblSide";
-            this.lblSide.Size = new System.Drawing.Size(177, 23);
+            this.lblSide.Size = new System.Drawing.Size(277, 29);
             this.lblSide.TabIndex = 7;
             this.lblSide.Text = "label6";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(250, 129);
+            this.ClientSize = new System.Drawing.Size(739, 304);
             this.Controls.Add(this.lblSide);
             this.Controls.Add(this.lblBeef);
             this.Controls.Add(this.lblNoodle);
@@ -239,6 +260,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.mnuMain);
             this.MainMenuStrip = this.mnuMain;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

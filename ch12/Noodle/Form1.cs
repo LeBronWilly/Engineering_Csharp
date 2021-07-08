@@ -21,16 +21,25 @@ namespace Noodle
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            lblNoodle.Text = "寬麵";lblBeef.Text = "招牌";lblSide.Text = "";
-            mnuNoodle.DropDown = this.cmnuNoodle;   //設功能項目的下拉式清單來源
+            lblNoodle.Text = "寬麵";
+            lblBeef.Text = "招牌";
+            lblSide.Text = "";
+
+            mnuNoodle.DropDown = cmnuNoodle;   //設功能項目的下拉式清單來源
             mnuBeef.DropDown = this.cmnuBeef;
-            mnuSide.DropDown = this.cmnuSide;
-            lblNoodle.ContextMenuStrip = cmnuNoodle;//設標籤的快顯功能表來源
-            lblBeef.ContextMenuStrip = cmnuBeef;
-            lblSide.ContextMenuStrip = cmnuSide;
+            mnuSide.DropDown = cmnuSide;
+
+            //lblNoodle.ContextMenuStrip = this.cmnuNoodle;//設標籤的快顯功能表來源
+            //lblBeef.ContextMenuStrip = cmnuBeef;
+            //lblSide.ContextMenuStrip = this.cmnuSide;
+
             cmnuNoodle2.Click += cmnuNoodle1_Click; //設定共享事件
-            cmnuBeef2.Click += cmnuBeef1_Click; cmnuBeef3.Click += cmnuBeef1_Click;
-            cmnuSide2.Click += cmnuSide1_Click;cmnuSide3.Click += cmnuSide1_Click;
+
+            cmnuBeef2.Click += cmnuBeef1_Click; //設定共享事件
+            cmnuBeef3.Click += cmnuBeef1_Click;
+
+            cmnuSide2.Click += cmnuSide1_Click; //設定共享事件
+            cmnuSide3.Click += cmnuSide1_Click;
         }
 
         private void cmnuNoodle1_Click(object sender, EventArgs e)
@@ -49,28 +58,43 @@ namespace Noodle
         {
             ToolStripMenuItem m = (ToolStripMenuItem)sender;
             m.Checked = !m.Checked; //改變項目的勾選狀態
-            price = 0;lblSide.Text = "";
+            price = 0; lblSide.Text = "";
             if (cmnuSide1.Checked == true)  //若有勾選
             {
-                lblSide.Text = $"{cmnuSide1.Text}, ";
-                price = 30; //小菜總價加30
+                lblSide.Text += $"{cmnuSide1.Text} ";
+                price += 30; //小菜總價加30
             }
             if (cmnuSide2.Checked == true)
             {
-                lblSide.Text += $"{cmnuSide2.Text}, ";
+                lblSide.Text += $"{cmnuSide2.Text} ";
                 price += 30;
             }
             if (cmnuSide3.Checked == true)
             {
-                lblSide.Text += $"{cmnuSide3.Text}";
+                lblSide.Text += $"{cmnuSide3.Text} ";
                 price += 30;
             }
         }
 
         private void mnuExit_Click(object sender, EventArgs e)
         {
-            MessageBox.Show($"{lblBeef.Text}{lblNoodle.Text},加 {lblSide.Text},總價{120+price}元");
-            Application.Exit();
+            if (lblSide.Text == "")
+            {
+                MessageBox.Show($"{lblBeef.Text}{lblNoodle.Text}，" +
+                                    $"總價{120 + price}元");
+            }
+            else
+            {
+                MessageBox.Show($"{lblBeef.Text}{lblNoodle.Text}，" +
+                                    $"加 {lblSide.Text}，總價{120 + price}元");
+            }
+
+            //Application.Exit();
+        }
+
+        private void mnuMain_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }

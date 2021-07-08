@@ -7,3 +7,13 @@ D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Notepad\obj\Debug\Not
 D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Notepad\obj\Debug\Notepad.csproj.GenerateResource.cache
 D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Notepad\obj\Debug\Notepad.exe
 D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Notepad\obj\Debug\Notepad.pdb
+D:\GitHub\Engineering_Csharp\ch12\Notepad\bin\Debug\Notepad.exe.config
+D:\GitHub\Engineering_Csharp\ch12\Notepad\bin\Debug\Notepad.exe
+D:\GitHub\Engineering_Csharp\ch12\Notepad\bin\Debug\Notepad.pdb
+D:\GitHub\Engineering_Csharp\ch12\Notepad\obj\Debug\Notepad.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_Csharp\ch12\Notepad\obj\Debug\Notepad.Form1.resources
+D:\GitHub\Engineering_Csharp\ch12\Notepad\obj\Debug\Notepad.Properties.Resources.resources
+D:\GitHub\Engineering_Csharp\ch12\Notepad\obj\Debug\Notepad.csproj.GenerateResource.cache
+D:\GitHub\Engineering_Csharp\ch12\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch12\Notepad\obj\Debug\Notepad.exe
+D:\GitHub\Engineering_Csharp\ch12\Notepad\obj\Debug\Notepad.pdb

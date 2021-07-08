@@ -64,6 +64,17 @@ namespace Notepad
             //建立pb為筆刷物件，其值和txtText的前景色相同
             SolidBrush pb = new SolidBrush(txtText.ForeColor);
             pg.DrawString(txtText.Text, pf, pb, e.MarginBounds);//以DrawString方法繪製文字
+            MessageBox.Show($"{e.MarginBounds}");
+        }
+
+        private void printPreviewDialog1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fontDialog1_Apply(object sender, EventArgs e)
+        {
+
         }
     }
 }

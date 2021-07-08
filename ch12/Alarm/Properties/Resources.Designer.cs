@@ -63,6 +63,26 @@ namespace Alarm.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
+        internal static System.Drawing.Bitmap _126843675_134489861754340_7146523900997636052_n {
+            get {
+                object obj = ResourceManager.GetObject("126843675_134489861754340_7146523900997636052_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap bbeea309_4dc0_46f3_818d_a031f7ff5c38_bluesus {
+            get {
+                object obj = ResourceManager.GetObject("bbeea309-4dc0-46f3-818d-a031f7ff5c38-bluesus", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
         internal static System.Drawing.Bitmap pause {
             get {
                 object obj = ResourceManager.GetObject("pause", resourceCulture);

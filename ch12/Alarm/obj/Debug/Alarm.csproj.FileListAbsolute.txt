@@ -7,3 +7,13 @@ D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Alarm\obj\Debug\Alarm
 D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Alarm\obj\Debug\Alarm.csproj.GenerateResource.cache
 D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Alarm\obj\Debug\Alarm.exe
 D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Alarm\obj\Debug\Alarm.pdb
+D:\GitHub\Engineering_Csharp\ch12\Alarm\bin\Debug\Alarm.exe.config
+D:\GitHub\Engineering_Csharp\ch12\Alarm\bin\Debug\Alarm.exe
+D:\GitHub\Engineering_Csharp\ch12\Alarm\bin\Debug\Alarm.pdb
+D:\GitHub\Engineering_Csharp\ch12\Alarm\obj\Debug\Alarm.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_Csharp\ch12\Alarm\obj\Debug\Alarm.Form1.resources
+D:\GitHub\Engineering_Csharp\ch12\Alarm\obj\Debug\Alarm.Properties.Resources.resources
+D:\GitHub\Engineering_Csharp\ch12\Alarm\obj\Debug\Alarm.csproj.GenerateResource.cache
+D:\GitHub\Engineering_Csharp\ch12\Alarm\obj\Debug\Alarm.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch12\Alarm\obj\Debug\Alarm.exe
+D:\GitHub\Engineering_Csharp\ch12\Alarm\obj\Debug\Alarm.pdb

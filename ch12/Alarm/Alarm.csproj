@@ -86,5 +86,11 @@
   <ItemGroup>
     <None Include="Resources\pause.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bbeea309-4dc0-46f3-818d-a031f7ff5c38-bluesus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\126843675_134489861754340_7146523900997636052_n.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

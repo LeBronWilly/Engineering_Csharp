@@ -7,3 +7,13 @@ D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Noodle\obj\Debug\Nood
 D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Noodle\obj\Debug\Noodle.csproj.GenerateResource.cache
 D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Noodle\obj\Debug\Noodle.exe
 D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Noodle\obj\Debug\Noodle.pdb
+D:\GitHub\Engineering_Csharp\ch12\Noodle\bin\Debug\Noodle.exe.config
+D:\GitHub\Engineering_Csharp\ch12\Noodle\bin\Debug\Noodle.exe
+D:\GitHub\Engineering_Csharp\ch12\Noodle\bin\Debug\Noodle.pdb
+D:\GitHub\Engineering_Csharp\ch12\Noodle\obj\Debug\Noodle.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_Csharp\ch12\Noodle\obj\Debug\Noodle.Form1.resources
+D:\GitHub\Engineering_Csharp\ch12\Noodle\obj\Debug\Noodle.Properties.Resources.resources
+D:\GitHub\Engineering_Csharp\ch12\Noodle\obj\Debug\Noodle.csproj.GenerateResource.cache
+D:\GitHub\Engineering_Csharp\ch12\Noodle\obj\Debug\Noodle.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch12\Noodle\obj\Debug\Noodle.exe
+D:\GitHub\Engineering_Csharp\ch12\Noodle\obj\Debug\Noodle.pdb

@@ -22,7 +22,9 @@ namespace Scroll
             openFileDialog1.Filter = "Rich Text(*.rtf)|*.rtf";
             openFileDialog1.InitialDirectory = Application.StartupPath;
             saveFileDialog1.DefaultExt = ".rtf";    //設定存檔時的預設副檔名為rtf
-            fontDialog1.MinSize = 28;fontDialog1.MaxSize = 48;//設字型大小範圍
+            fontDialog1.MinSize = 30;
+            fontDialog1.MaxSize = 60;//設字型大小範圍
+            rtbShow.SelectionAlignment = HorizontalAlignment.Center;
         }
 
         private void mnuOpen_Click(object sender, EventArgs e)
@@ -30,8 +32,10 @@ namespace Scroll
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 rtbShow.LoadFile(openFileDialog1.FileName, RichTextBoxStreamType.RichText);
+                MessageBox.Show("開檔成功！");
                 rtbShow.ForeColor = rtbShow.SelectionColor; //設前景色和目前顏色相同
                 rtbShow.Font = rtbShow.SelectionFont;       //設字型和目前字型相同
+                rtbShow.Text += "　　";
                 mnuWord.Text = rtbShow.Text;       //設ttxtWord文字和rtbShow相同
                 tmrMove.Start(); //啟動計時器
             }
@@ -47,10 +51,12 @@ namespace Scroll
         {   //若在存檔對話方塊按確定鈕，就儲存指定的檔案
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                rtbShow.Text = mnuWord.Text;
+                rtbShow.Text = mnuWord.Text.Replace("　", "");
+                //rtbShow.Text = rtbShow.Text.Replace("　", "");
                 rtbShow.SaveFile(saveFileDialog1.FileName, RichTextBoxStreamType.RichText);
+                MessageBox.Show("存檔成功！");
             }
-         }
+        }
 
         private void mnuExit_Click(object sender, EventArgs e)
         {
@@ -74,6 +80,11 @@ namespace Scroll
             mnuWord.Text += "　　";  //加兩個全形空白字元
             rtbShow.Text = mnuWord.Text;       //設rtbShow文字和ttxtWord相同
             tmrMove.Start(); //啟動計時器
+        }
+
+        private void rtbShow_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

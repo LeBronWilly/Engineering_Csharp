@@ -48,27 +48,28 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuColor,
             this.mnuFont,
             this.mnuPrintSet});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(284, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(681, 31);
             this.menuStrip1.TabIndex = 11;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // mnuColor
             // 
             this.mnuColor.Name = "mnuColor";
-            this.mnuColor.Size = new System.Drawing.Size(43, 20);
+            this.mnuColor.Size = new System.Drawing.Size(58, 27);
             this.mnuColor.Text = "色彩";
             this.mnuColor.Click += new System.EventHandler(this.mnuColor_Click);
             // 
             // mnuFont
             // 
             this.mnuFont.Name = "mnuFont";
-            this.mnuFont.Size = new System.Drawing.Size(43, 20);
+            this.mnuFont.Size = new System.Drawing.Size(58, 27);
             this.mnuFont.Text = "字型";
             this.mnuFont.Click += new System.EventHandler(this.mnuFont_Click);
             // 
@@ -79,33 +80,34 @@
             this.mnuPreview,
             this.mnuPrint});
             this.mnuPrintSet.Name = "mnuPrintSet";
-            this.mnuPrintSet.Size = new System.Drawing.Size(67, 20);
+            this.mnuPrintSet.Size = new System.Drawing.Size(92, 27);
             this.mnuPrintSet.Text = "列印功能";
             // 
             // mnuSetup
             // 
             this.mnuSetup.Name = "mnuSetup";
-            this.mnuSetup.Size = new System.Drawing.Size(180, 22);
+            this.mnuSetup.Size = new System.Drawing.Size(162, 28);
             this.mnuSetup.Text = "列印格式";
             this.mnuSetup.Click += new System.EventHandler(this.mnuSetup_Click);
             // 
             // mnuPreview
             // 
             this.mnuPreview.Name = "mnuPreview";
-            this.mnuPreview.Size = new System.Drawing.Size(180, 22);
+            this.mnuPreview.Size = new System.Drawing.Size(162, 28);
             this.mnuPreview.Text = "預覽";
             this.mnuPreview.Click += new System.EventHandler(this.mnuPreview_Click);
             // 
             // mnuPrint
             // 
             this.mnuPrint.Name = "mnuPrint";
-            this.mnuPrint.Size = new System.Drawing.Size(180, 22);
+            this.mnuPrint.Size = new System.Drawing.Size(162, 28);
             this.mnuPrint.Text = "列印";
             this.mnuPrint.Click += new System.EventHandler(this.mnuPrint_Click);
             // 
             // fontDialog1
             // 
             this.fontDialog1.Color = System.Drawing.SystemColors.ControlText;
+            this.fontDialog1.Apply += new System.EventHandler(this.fontDialog1_Apply);
             // 
             // printDocument1
             // 
@@ -124,22 +126,25 @@
             this.printPreviewDialog1.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog1.Icon")));
             this.printPreviewDialog1.Name = "printPreviewDialog1";
             this.printPreviewDialog1.Visible = false;
+            this.printPreviewDialog1.Load += new System.EventHandler(this.printPreviewDialog1_Load);
             // 
             // txtText
             // 
-            this.txtText.Location = new System.Drawing.Point(12, 28);
+            this.txtText.Location = new System.Drawing.Point(13, 35);
+            this.txtText.Margin = new System.Windows.Forms.Padding(4);
             this.txtText.Multiline = true;
             this.txtText.Name = "txtText";
-            this.txtText.Size = new System.Drawing.Size(260, 230);
+            this.txtText.Size = new System.Drawing.Size(655, 321);
             this.txtText.TabIndex = 12;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(681, 369);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.txtText);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

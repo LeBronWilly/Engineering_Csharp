@@ -7,3 +7,13 @@ D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Scroll\obj\Debug\Scro
 D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Scroll\obj\Debug\Scroll.csproj.GenerateResource.cache
 D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Scroll\obj\Debug\Scroll.exe
 D:\08從零開始\VisualC#2019從零開始\ch12\ch12範例\Scroll\obj\Debug\Scroll.pdb
+D:\GitHub\Engineering_Csharp\ch12\Scroll\bin\Debug\Scroll.exe.config
+D:\GitHub\Engineering_Csharp\ch12\Scroll\bin\Debug\Scroll.exe
+D:\GitHub\Engineering_Csharp\ch12\Scroll\bin\Debug\Scroll.pdb
+D:\GitHub\Engineering_Csharp\ch12\Scroll\obj\Debug\Scroll.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_Csharp\ch12\Scroll\obj\Debug\Scroll.Form1.resources
+D:\GitHub\Engineering_Csharp\ch12\Scroll\obj\Debug\Scroll.Properties.Resources.resources
+D:\GitHub\Engineering_Csharp\ch12\Scroll\obj\Debug\Scroll.csproj.GenerateResource.cache
+D:\GitHub\Engineering_Csharp\ch12\Scroll\obj\Debug\Scroll.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch12\Scroll\obj\Debug\Scroll.exe
+D:\GitHub\Engineering_Csharp\ch12\Scroll\obj\Debug\Scroll.pdb
