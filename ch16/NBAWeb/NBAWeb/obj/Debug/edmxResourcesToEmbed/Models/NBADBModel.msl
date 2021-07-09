@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="NBADBModelStoreContainer" CdmEntityContainer="NBADBEntities">
+    <EntitySetMapping Name="NBA_Player">
+      <EntityTypeMapping TypeName="NBADBModel.NBA_Player">
+        <MappingFragment StoreEntitySet="NBA_Player">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="No" ColumnName="No" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Male" ColumnName="Male" />
+          <ScalarProperty Name="Team" ColumnName="Team" />
+          <ScalarProperty Name="Pts" ColumnName="Pts" />
+          <ScalarProperty Name="Rbs" ColumnName="Rbs" />
+          <ScalarProperty Name="Asts" ColumnName="Asts" />
+          <ScalarProperty Name="GameDate" ColumnName="GameDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NBADBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="NBA_Player">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="No" Type="nvarchar" MaxLength="5" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Male" Type="bit" />
+    <Property Name="Team" Type="nvarchar" MaxLength="50" />
+    <Property Name="Pts" Type="int" />
+    <Property Name="Rbs" Type="int" />
+    <Property Name="Asts" Type="int" />
+    <Property Name="GameDate" Type="date" />
+  </EntityType>
+  <EntityContainer Name="NBADBModelStoreContainer">
+    <EntitySet Name="NBA_Player" EntityType="Self.NBA_Player" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

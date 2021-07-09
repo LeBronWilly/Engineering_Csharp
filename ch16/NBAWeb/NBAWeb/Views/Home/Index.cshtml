@@ -1,0 +1,84 @@
+﻿@model IEnumerable<NBAWeb.Models.NBA_Player>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.No)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Male)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Team)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Pts)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rbs)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Asts)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GameDate)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.No)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Male)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Team)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pts)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Rbs)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Asts)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GameDate)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { nbaId = item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { nbaId = item.Id })
+
+            @*@Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.Id })*@
+        </td>
+    </tr>
+}
+
+</table>

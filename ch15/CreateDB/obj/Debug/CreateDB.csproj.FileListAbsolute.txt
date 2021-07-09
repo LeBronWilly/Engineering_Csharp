@@ -1,0 +1,12 @@
+D:\GitHub\Engineering_Csharp\ch15\CreateDB\bin\Debug\dbEmployee.mdf
+D:\GitHub\Engineering_Csharp\ch15\CreateDB\bin\Debug\dbEmployee_log.ldf
+D:\GitHub\Engineering_Csharp\ch15\CreateDB\bin\Debug\CreateDB.exe.config
+D:\GitHub\Engineering_Csharp\ch15\CreateDB\bin\Debug\CreateDB.exe
+D:\GitHub\Engineering_Csharp\ch15\CreateDB\bin\Debug\CreateDB.pdb
+D:\GitHub\Engineering_Csharp\ch15\CreateDB\obj\Debug\CreateDB.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_Csharp\ch15\CreateDB\obj\Debug\CreateDB.Form1.resources
+D:\GitHub\Engineering_Csharp\ch15\CreateDB\obj\Debug\CreateDB.Properties.Resources.resources
+D:\GitHub\Engineering_Csharp\ch15\CreateDB\obj\Debug\CreateDB.csproj.GenerateResource.cache
+D:\GitHub\Engineering_Csharp\ch15\CreateDB\obj\Debug\CreateDB.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch15\CreateDB\obj\Debug\CreateDB.exe
+D:\GitHub\Engineering_Csharp\ch15\CreateDB\obj\Debug\CreateDB.pdb

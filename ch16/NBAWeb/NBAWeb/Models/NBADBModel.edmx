@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="NBADBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="NBA_Player">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="nvarchar" MaxLength="10" Nullable="false" />
+          <Property Name="No" Type="nvarchar" MaxLength="5" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" />
+          <Property Name="Male" Type="bit" />
+          <Property Name="Team" Type="nvarchar" MaxLength="50" />
+          <Property Name="Pts" Type="int" />
+          <Property Name="Rbs" Type="int" />
+          <Property Name="Asts" Type="int" />
+          <Property Name="GameDate" Type="date" />
+        </EntityType>
+        <EntityContainer Name="NBADBModelStoreContainer">
+          <EntitySet Name="NBA_Player" EntityType="Self.NBA_Player" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="NBADBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="NBA_Player">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="No" Type="String" MaxLength="5" FixedLength="false" Unicode="true" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Male" Type="Boolean" />
+          <Property Name="Team" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Pts" Type="Int32" />
+          <Property Name="Rbs" Type="Int32" />
+          <Property Name="Asts" Type="Int32" />
+          <Property Name="GameDate" Type="DateTime" Precision="0" />
+        </EntityType>
+        <EntityContainer Name="NBADBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="NBA_Player" EntityType="Self.NBA_Player" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="NBADBModelStoreContainer" CdmEntityContainer="NBADBEntities">
+          <EntitySetMapping Name="NBA_Player">
+            <EntityTypeMapping TypeName="NBADBModel.NBA_Player">
+              <MappingFragment StoreEntitySet="NBA_Player">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="No" ColumnName="No" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Male" ColumnName="Male" />
+                <ScalarProperty Name="Team" ColumnName="Team" />
+                <ScalarProperty Name="Pts" ColumnName="Pts" />
+                <ScalarProperty Name="Rbs" ColumnName="Rbs" />
+                <ScalarProperty Name="Asts" ColumnName="Asts" />
+                <ScalarProperty Name="GameDate" ColumnName="GameDate" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="無" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

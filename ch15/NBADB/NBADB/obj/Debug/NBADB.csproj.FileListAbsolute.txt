@@ -1,0 +1,11 @@
+D:\GitHub\Engineering_Csharp\ch15\NBADB\NBADB\bin\Debug\NBADB.mdf
+D:\GitHub\Engineering_Csharp\ch15\NBADB\NBADB\bin\Debug\NBADB_log.ldf
+D:\GitHub\Engineering_Csharp\ch15\NBADB\NBADB\bin\Debug\NBADB.exe.config
+D:\GitHub\Engineering_Csharp\ch15\NBADB\NBADB\bin\Debug\NBADB.exe
+D:\GitHub\Engineering_Csharp\ch15\NBADB\NBADB\bin\Debug\NBADB.pdb
+D:\GitHub\Engineering_Csharp\ch15\NBADB\NBADB\obj\Debug\NBADB.csproj.AssemblyReference.cache
+D:\GitHub\Engineering_Csharp\ch15\NBADB\NBADB\obj\Debug\NBADB.Properties.Resources.resources
+D:\GitHub\Engineering_Csharp\ch15\NBADB\NBADB\obj\Debug\NBADB.csproj.GenerateResource.cache
+D:\GitHub\Engineering_Csharp\ch15\NBADB\NBADB\obj\Debug\NBADB.csproj.CoreCompileInputs.cache
+D:\GitHub\Engineering_Csharp\ch15\NBADB\NBADB\obj\Debug\NBADB.exe
+D:\GitHub\Engineering_Csharp\ch15\NBADB\NBADB\obj\Debug\NBADB.pdb
